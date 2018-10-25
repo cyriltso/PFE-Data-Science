@@ -1,31 +1,44 @@
-import os #allow to do a break at the end of the script
-import csv #export to a csv file
-import requests #used to load the page and to store the contents inside of a variable
+#importing libraries
+import urllib.request
 from bs4 import BeautifulSoup
+import csv
+from datetime import datetime
 
-write_to_file_path = "LDC 2016-2017.csv";
-output_file = open(write_to_file_path, "w+");
-writer = csv.writer(output_file)
+#selecting the url
+page_selected = 'https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League'
 
-requete = requests.get("https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League") #requests.get allows to do a HTTP/HTTPS request
-page = requete.content #the method content allows to get the content of the page
-soup = BeautifulSoup(page, "html.parser") #the page is parsed with BeautifulSoup
+#calling the website and returning the hyperlink to the variable 'page_selected'
+page = urllib.request.urlopen(page_selected)
 
-#print(soup) #used to scrap the whole page
+#parsing the html with BeautifulSoup and store in variable 'soup'
+soup = BeautifulSoup(page, 'html.parser')
 
-#print(soup.find_all('p')) #used to find all the paragraphs
-#print(soup.find_all('h3')) #used to scrap all the subtitles
+#soup_text_extract = soup.text.strip()
 
-#print(soup.findAll('div',attrs={"class":"wikitable"}))
+#print(soup) #used to print the content of the web page
+#print(soup_text_extract) #used to print the extracted text of this page
 
-table = soup.find('table', attrs={'class':'multicol'}) #the whole table in which are stored the data on the website, multicol is the class corresponding to the ranking of the scorers and the assists
+#selecting a specific data on the webpage
+#page_section = soup.find('h1', attrs={'class': 'firstHeading'})
+page_section2 = soup.find("div", {"id": "bodyContent"})
+#page_section3 = soup.find("table", {"class": "infobox vcalendar"})
 
-for line in table.findAll('tr'): #parsing an entire row
-    for l in line.findAll('td'): #parsing each row
-        if l.find('sup'):
-           l.find('sup').extract()
-        print(l.getText(),'-'),
-    print
+#scrap elements that are from the same class
+#for elements in soup.find_all("table", {"class": "wikitable"}):
+    #print(elements.text.strip())
 
+#extracting the text in this tag section
+#text = page_section.text.strip() #strip() allows extract the text inside of the tags
+text2 = page_section2.text.strip()
+#text3 = page_section3.text.strip()
+
+#print(page_section)
+print(text2)
+#print(text3)
+
+#open a csv file in which data are written inside
+with open('LDC 2016-2017.csv', 'a', encoding="UTF-8") as csv_file:
+    writer = csv.writer(csv_file)
+    w = writer.writerow([text2, datetime.now()])
 
 
