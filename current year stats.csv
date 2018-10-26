@@ -1,0 +1,1732 @@
+"window.uefaBaseUrl = window.uefaBaseUrl || '//fr.uefa.com';
+  window.vsmBaseUrl = window.vsmBaseUrl || 'https://fr.competitions.uefa.com';
+  window.uefaApiBaseUrl = window.uefaApiBaseUrl || 'https://fr.competitions.uefa.com/api/v1/';
+
+
+
+
+
+
+
+
+
+
+
+L'UEFA                  
+
+
+
+Score en direct                  
+
+
+
+Billets et hospitalité                  
+
+
+
+Boutique                  
+
+
+
+
+
+Connexion 
+
+
+
+ 
+
+
+    (function(win) {
+      function extend(obj, src) {
+        obj = obj || {};
+        src = src || {};
+        for (var key in src) {
+          if (src.hasOwnProperty(key)) obj[key] = src[key];
+        }
+        return obj;
+      }
+
+      win.d3Translations = extend(win.d3Translations, {""login"":""Se connecter"",""already_user"":""Déjà inscrit sur UEFA.com ?"",""login_email"":""Se connecter avec un e-mail"",""nav_login"":""Connexion"",""or"":""ou"",""signup"":""S\u0027inscrire"",""um_not_a_member"":""Pas encore membre ?"",""join_uefa_com"":""Rejoignez la famille du football européen maintenant!\u003cbr/\u003ePrenez part à des jeux, compétitions et bien plus encore."",""login_register"":""S\u0027inscrire"",""login_facebook"":""Se connecter avec Facebook"",""login_google"":""Se connecter avec Google+"",""login_windows"":""Se connecter avec Windows"",""login_yahoo"":""Se connecter avec Yahoo!""});
+    })(window);
+
+
+
+
+
+yahoo
+
+
+
+google
+
+
+
+windows
+
+
+
+facebook
+
+
+
+twitter
+
+
+
+
+
+
+
+Se connecter
+
+Déjà inscrit sur UEFA.com ?
+
+
+
+
+
+
+Se connecter avec Facebook
+
+
+
+
+
+
+
+Se connecter avec Google+
+
+
+
+
+
+
+
+Se connecter avec Windows
+
+
+
+
+
+
+
+Se connecter avec Yahoo!
+
+
+
+
+
+Se connecter avec un e-mail
+
+
+
+Il semble qu'il y ait un problème avec l'adresse e-mail que vous avez entrée. Veuillez s'il vous plaît vérifier que votre adresse est valide et la saisir à nouveau.
+
+
+
+Veuillez s'il vous plaît choisir un mot de passe
+
+
+
+
+
+                Rester connecté
+              
+
+Mot de passe oublié ?
+
+
+Nous sommes désolés, il semble qu'il y ait un problème avec vos identifiants.
+
+
+ou
+
+
+S'inscrire
+
+Pas encore membre ?
+Rejoignez la famille du football européen maintenant!Prenez part à des jeux, compétitions et bien plus encore.
+
+      S'inscrire
+    
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+Profil
+
+
+Paramètres du compte
+
+
+Préférences
+
+
+Déconnexion
+
+
+
+
+
+
+
+
+
+
+
+
+Toutes les sections
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        Accueil
+                      
+
+
+UEFA Champions League
+
+
+UEFA Europa League
+
+
+UEFA Nations League
+
+
+
+
+
+
+Associations membres
+
+
+Football féminin
+
+
+Compétitions nationales européennes
+
+
+But de la saison
+
+
+Score en direct
+
+
+Guide TV
+
+
+
+
+
+                    Compétitions
+                    
+                      Compétitions
+                       
+
+
+
+
+
+                        Clubs
+                      
+
+UEFA Champions League
+
+
+UEFA Europa League
+
+
+Super Coupe de l'UEFA
+
+
+UEFA Youth League
+
+
+
+
+                        Sélections
+                      
+
+Éliminatoires Européens
+
+
+UEFA EURO 2020
+
+
+UEFA Nations League
+
+
+Moins de 21 ans
+
+
+
+
+                        Juniors et Amateurs
+                      
+
+Moins de 19 ans
+
+
+Moins de 17 ans
+
+
+Coupe des Régions
+
+
+
+
+Football féminin
+
+
+Championnat d'Europe féminin 
+
+
+Mondial féminin
+
+
+UEFA Women's Champions League
+
+
+EURO féminin M-19
+
+
+EURO féminin M-17
+
+
+
+
+Futsal
+
+
+EURO de futsal
+
+
+Coupe du Monde de Futsal
+
+
+Futsal Champions League
+
+
+UEFA Women's Futsal EURO
+
+
+
+
+
+
+
+
+
+
+                        Dans les coulisses de l'UEFA
+                        
+                      
+
+
+
+
+
+
+L'UEFA
+
+
+Médias
+
+
+Calendrier
+
+
+Bibliothèque
+
+
+
+
+
+
+Développement
+
+
+Emploi
+
+
+Discipline
+
+
+
+
+
+
+Responsabilité sociale
+
+
+Protéger le jeu
+
+
+Partenariats
+
+
+
+
+
+
+Dictionnaire
+
+
+Prix
+
+
+News
+
+
+
+
+
+
+
+
+Associations membres
+
+
+Football féminin
+
+
+Compétitions nationales européennes
+
+
+But de la saison
+
+
+Score en direct
+
+
+Guide TV
+
+
+
+
+
+
+
+Billets et hospitalité
+
+
+Boutique
+
+
+Newsletters
+
+
+
+
+
+Facebook
+
+
+
+
+Twitter
+
+
+
+
+Google +
+
+
+
+
+Instagram
+
+
+
+
+Linkedin
+
+
+
+
+The NewsMarket
+
+
+
+
+YouTube
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UEFA Champions League
+
+
+
+
+
+
+
+
+    var spEl = document.querySelector(""section[class*='sponsor-']"");
+    if (spEl != null)
+    {
+      window.dataLayer.push({
+        event: ""Page Meta"",
+        partners: spEl.className.split('-').pop()
+      });
+    }
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+UEFA Champions League
+
+
+
+
+
+
+
+    var spEl = document.querySelector(""section[class*='sponsor-']"");
+    if (spEl != null)
+    {
+      window.dataLayer.push({
+        event: ""Page Meta"",
+        partners: spEl.className.split('-').pop()
+      });
+    }
+  
+
+ 
+
+
+
+
+
+
+UEFA Champions League
+
+
+Menu
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+                  Accueil
+                   
+
+
+
+Toutes les news
+
+
+Matches
+
+
+Classements
+
+
+Clubs
+
+
+Stats
+
+
+Jeux
+
+
+Histoire
+
+
+À propos
+
+
+Boutique
+
+
+
+
+
+
+
+
+
+
+
+
+      Accueil
+    
+ 
+
+
+
+
+
+      Stats
+    
+ 
+
+
+
+
+
+      Statistiques toutes saisons
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+      L'UEFA Champions League en chiffres
+      
+
+
+
+
+
+
+
+      notitle
+      
+
+
+
+
+
+
+
+    Matches joués
+  
+
+
+
+
+48        
+
+          MATCHES JOUÉS
+        
+
+          Total 216
+        
+
+
+
+
+
+
+
+
+
+
+    Buts
+  
+
+
+
+        Total jusqu'à présent
+      
+
+        139
+      
+
+
+
+        Buts par match
+      
+
+        2,90
+      
+
+
+
+        1 but marqué toutes les 
+      
+
+        32'
+      
+
+
+
+
+
+
+
+
+
+    Minute des buts
+  
+
+
+
+
+
+
+13
+1-15
+
+
+
+
+
+
+20
+16-30
+
+
+
+
+
+
+29
+31-45
+
+
+
+
+
+
+1
+45+
+
+
+
+
+
+
+21
+46-60
+
+
+
+
+
+
+24
+61-75
+
+
+
+
+
+
+20
+76-90
+
+
+
+
+
+
+11
+90+
+
+
+
+
+
+
+0
+Prolongation (1re période)
+
+
+
+
+
+
+0
+Prolongation (2e période)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      notitle
+      
+
+
+
+
+
+
+
+
+  (function (win) {
+    'use strict';
+    win.D3 = win.D3 || {};
+    //shortcut
+    var d3 = win.D3;
+    if (d3.gptBannerHelper) d3.gptBannerHelper.addBanner(""div-gpt-ad-1410518459199-2"");
+  }(window));
+
+
+
+
+
+
+
+
+
+
+
+
+      notitle
+      
+
+
+
+
+
+
+
+      Statistiques par équipes
+      
+
+
+
+
+
+
+
+
+
+  Buts marqués
+
+
+
+
+
+
+
+          Barcelona
+        
+
+
+        10
+      
+
+
+
+
+
+          Paris
+        
+
+
+        10
+      
+
+
+
+
+
+          Dortmund
+        
+
+
+        8
+      
+
+
+
+
+
+          Roma
+        
+
+
+        8
+      
+
+
+
+
+
+          Lyon
+        
+
+
+        7
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Total de tirs
+
+
+
+
+
+
+
+          75
+        
+
+
+        RM
+      
+
+
+
+
+
+          62
+        
+
+
+        MC
+      
+
+
+
+
+
+          58
+        
+
+
+        PAR
+      
+
+
+
+
+
+          57
+        
+
+
+        BAR
+      
+
+
+
+
+
+          54
+        
+
+
+        ASR
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Tirs cadrés
+
+
+
+
+
+
+
+          30
+        
+
+
+        ASR
+      
+
+
+
+
+
+          28
+        
+
+
+        PAR
+      
+
+
+
+
+
+          27
+        
+
+
+        BAR
+      
+
+
+
+
+
+          22
+        
+
+
+        AJX
+      
+
+
+
+
+
+          21
+        
+
+
+        RM
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Fautes commises
+
+
+
+
+
+        50
+      
+
+
+
+
+
+
+        POR
+      
+
+
+
+        50
+      
+
+
+
+
+
+
+        AJX
+      
+
+
+
+        48
+      
+
+
+
+
+
+
+        TOT
+      
+
+
+
+        47
+      
+
+
+
+
+
+
+        INT
+      
+
+
+
+        47
+      
+
+
+
+
+
+
+        VAL
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      En voir plus
+    
+
+
+
+
+
+
+
+      Statistiques individuelles
+      
+
+
+
+
+
+
+
+
+
+  Meilleurs buteurs
+
+
+
+
+
+
+
+            Edin Džeko
+          
+Roma
+
+
+
+        5
+      
+
+
+
+
+          Lionel Messi
+        
+Barcelona
+
+
+        5
+      
+
+
+
+
+          Paulo Dybala
+        
+Juventus
+
+
+        4
+      
+
+
+
+
+          Neymar
+        
+Paris
+
+
+        3
+      
+
+
+
+
+          Michael Krmenčík
+        
+Plzeň
+
+
+        2
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Meilleurs passeurs
+
+
+
+
+
+
+
+            Jordi Alba
+          
+Barcelona
+
+
+
+        3
+      
+
+
+
+
+          Achraf Hakimi
+        
+Dortmund
+
+
+        3
+      
+
+
+
+
+          Nabil Fekir
+        
+Lyon
+
+
+        2
+      
+
+
+
+
+          Leroy Sané
+        
+Man. City
+
+
+        2
+      
+
+
+
+
+          Andy Robertson
+        
+Liverpool
+
+
+        2
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Tirs cadrés
+
+
+
+
+
+
+
+            Edin Džeko
+          
+Roma
+
+
+
+        11
+      
+
+
+
+
+          Neymar
+        
+Paris
+
+
+        10
+      
+
+
+
+
+          Lionel Messi
+        
+Barcelona
+
+
+        7
+      
+
+
+
+
+          Hakim Ziyech
+        
+Ajax
+
+
+        7
+      
+
+
+
+
+          Garry Rodrigues
+        
+Galatasaray
+
+
+        5
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Fautes commises
+
+
+
+
+
+
+
+            Denzel Dumfries
+          
+PSV
+
+
+
+        11
+      
+
+
+
+
+          Moussa Marega
+        
+Porto
+
+
+        9
+      
+
+
+
+
+          Joelinton
+        
+Hoffenheim
+
+
+        8
+      
+
+
+
+
+          Branko Jovičić
+        
+Crvena zvezda
+
+
+        8
+      
+
+
+
+
+          Haris Seferović
+        
+Benfica
+
+
+        8
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      En voir plus
+    
+
+
+
+
+
+
+
+
+
+
+
+      notitle
+      
+
+
+
+
+
+
+
+
+  (function (win) {
+    'use strict';
+    win.D3 = win.D3 || {};
+    //shortcut
+    var d3 = win.D3;
+    if (d3.gptBannerHelper) d3.gptBannerHelper.addBanner(""div-gpt-ad-1410518459199-3"");
+  }(window));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UEFA Champions League
+
+
+
+
+
+Toutes les news
+
+
+Matches
+
+
+Classements
+
+
+Clubs
+
+
+
+
+
+
+Stats
+
+
+Jeux
+
+
+Histoire
+
+
+À propos
+
+
+Boutique
+
+
+
+
+
+
+
+
+
+
+Voir également
+
+
+UEFA.com
+
+
+Dans les coulisses de l'UEFA
+
+
+Fondation UEFA
+
+
+Boutique
+
+
+
+
+
+
+
+
+
+Mon UEFA.com
+
+Connexion
+S'inscrire
+
+
+Outils
+
+
+Flux RSS
+
+
+
+
+
+
+Langues
+
+
+English
+
+
+Français
+
+
+Deutsch
+
+
+Русский
+
+
+Español
+
+
+Italiano
+
+
+Português
+
+
+
+
+
+
+
+
+
+
+
+
+Liens réseaux sociaux et applications
+
+
+
+
+Suivez-nous sur
+
+
+twitter
+
+
+
+
+facebook
+
+
+
+
+youtube
+
+
+
+
+instagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Services et mise en garde
+
+
+
+
+
+Version accessible
+
+
+Vie privée
+
+
+Conditions d'utilisation
+
+
+Politique de cookies
+
+
+
+
+
+© 1998-2018 UEFA. All rights reserved.
+La désignation UEFA, le logo de l'UEFA et toutes les marques liées aux compétitions de l'UEFA sont protégés en tant que marques et/ou droits d'auteur de l'UEFA. Toute utilisation de ces marques déposées à des fins commerciales est interdite.  L'utilisation de la plate-forme UEFA.com implique que vous acceptez les Conditions générales et les Dispositions en matière de vie privée.",2018-10-26 12:51:04.074658
