@@ -1,0 +1,32 @@
+All the data we want to predict the winner:
+
+- previous winners
+- best scorers for each edition
+- best assists players for each edition
+
+- each team detailed statistics such as:
+	-> possession
+	-> attempted strikes
+	-> strikes' accuracy
+	-> attempted pass
+	-> succeed passes
+	-> Offside
+	-> red cards
+	-> yellow cards
+	-> number of fouls
+	-> winning duals
+
+- teams' ranking in their national championship
+- Win/Lose ratio while playing at home
+- Win/Lose ratio while playing away
+- teams winning dynamic? (for example, if a team is on a 10-hot streak wins, he will be more likely to win the next matches)
+- teams' ranking during the group stage?
+- teams' result on each elimination round (2 bouts for each round)
+- number of players that are from the national teams in each team engaged in the competition?
+- number of Ballon d'Or in the teams?
+- age average of each team?
+- place of the final?
+- uefa ranking of each team engaged in the competition?
+- number of best strikers,midfielders,defenders,goalkeepers on each team? (players that got awarded the previous years)
+- number of goals scored and taken of each team
+- coach achievements?
