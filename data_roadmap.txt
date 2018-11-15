@@ -1,27 +1,13 @@
 All the data we want to predict the winner:
 
-- previous winners
-- best scorers for each edition
+- previous winners (ok)
+- best scorers for each edition 
 - best assists players for each edition
 - all time scorers (ok)
 - all time winners (ok)
 - performances by nation (ok)
 - most appearances (ok)
 - most appearances for coaches (ok)
-
-
-- each team detailed statistics such as:
-	-> possession
-	-> attempted strikes
-	-> strikes' accuracy
-	-> attempted pass
-	-> succeed passes
-	-> Offside
-	-> red cards
-	-> yellow cards
-	-> number of fouls
-	-> winning duals
-
 - teams' ranking in their national championship
 - Win/Lose ratio while playing at home
 - Win/Lose ratio while playing away
@@ -35,4 +21,24 @@ All the data we want to predict the winner:
 - uefa ranking of each team engaged in the competition?
 - number of best strikers,midfielders,defenders,goalkeepers on each team? (players that got awarded the previous years)
 - number of goals scored and taken of each team
+
+-----------Teams (for each year) :----------
+
+UCL and championship 
+
+- nb of game played (total, C1, League) 
+- nb of victories, losses, draws (total, C1, league) 
+- same as above but at home and away
+- nb of goal scored and conceded on the year (total, C1, league) 
+- nb of yellow and red cards (total, C1, league) 
+- percentage of possession (total, C1, league) 
+- mean age of the team
+- maximum and minimum age
+- standard deviation of the age 
+
+-------Players (for each player, for each year) ----------
+- his team
+- nb of game played (total, league, C1) 
+- nb of goals scored
+- nb of yellow and red cards
 
