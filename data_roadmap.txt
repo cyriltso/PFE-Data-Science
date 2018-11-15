@@ -7,6 +7,8 @@ All the data we want to predict the winner:
 - all time winners (ok)
 - performances by nation (ok)
 - most appearances (ok)
+- most appearances for coaches (ok)
+
 
 - each team detailed statistics such as:
 	-> possession
@@ -33,4 +35,4 @@ All the data we want to predict the winner:
 - uefa ranking of each team engaged in the competition?
 - number of best strikers,midfielders,defenders,goalkeepers on each team? (players that got awarded the previous years)
 - number of goals scored and taken of each team
-- coach achievements?
+
