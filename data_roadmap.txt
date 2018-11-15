@@ -3,7 +3,7 @@ All the data we want to predict the winner:
 - previous winners
 - best scorers for each edition
 - best assists players for each edition
-- all time best scorers
+- all time best scorers (ok, but must be updated regularly)
 - all time best assists players
 
 - each team detailed statistics such as:
