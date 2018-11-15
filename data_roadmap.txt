@@ -3,6 +3,10 @@ All the data we want to predict the winner:
 - previous winners
 - best scorers for each edition
 - best assists players for each edition
+- all time scorers (ok)
+- all time winners (ok)
+- performances by nation (ok)
+- most appearances (ok)
 
 - each team detailed statistics such as:
 	-> possession
