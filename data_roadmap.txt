@@ -1,36 +1,14 @@
-All the data we want to predict the winner:
-
-- previous winners (ok)
-- best scorers for each edition 
-- best assists players for each edition
-- all time scorers (ok)
-- all time winners (ok)
-- performances by nation (ok)
-- most appearances (ok)
-- most appearances for coaches (ok)
-- teams' ranking in their national championship
-- Win/Lose ratio while playing at home
-- Win/Lose ratio while playing away
-- teams winning dynamic? (for example, if a team is on a 10-hot streak wins, he will be more likely to win the next matches)
-- teams' ranking during the group stage?
-- teams' result on each elimination round (2 bouts for each round)
-- number of players that are from the national teams in each team engaged in the competition?
-- number of Ballon d'Or in the teams?
-- age average of each team?
-- place of the final?
-- uefa ranking of each team engaged in the competition?
-- number of best strikers,midfielders,defenders,goalkeepers on each team? (players that got awarded the previous years)
-- number of goals scored and taken of each team
+Data will be acquired from 2013 to 2019 as it's hard to find beyond this year !
 
 -----------Teams (for each year) :----------
 
 UCL and championship 
 
-- nb of game played (total, C1, League) 
-- nb of victories, losses, draws (total, C1, league) 
+- nb of game played (total, C1, League) OK
+- nb of victories, losses, draws (total, C1, league) OK
 - same as above but at home and away
-- nb of goal scored and conceded on the year (total, C1, league) 
-- nb of yellow and red cards (total, C1, league) 
+- nb of goal scored and conceded on the year (total, C1, league) OK
+- nb of yellow and red cards (total, C1, league) OK
 - percentage of possession (total, C1, league) 
 - mean age of the team
 - maximum and minimum age
@@ -42,3 +20,38 @@ UCL and championship
 - nb of goals scored
 - nb of yellow and red cards
 
+-------Performances ----------
+- Match Performance
+- Streaks
+
+##### DONE THE 3/12/18 #####
+
+-------Sources for Teams(for each player, for each year) ----------
+
+- nb of game played in C1
+- nb of victories, losses, draws in C1
+
+----> Group Stage: http://www.espn.com/soccer/standings/_/league/uefa.champions/season/2017
+----> Elimination Rounds: https://footystats.org/europe/uefa-champions-league/2016-2017/overview
+
+- nb of goal scored and conceded on the year (total, C1, league)
+
+----> https://footystats.org/europe/uefa-champions-league/2016-2017/overview
+
+- nb of yellow and red cards in C1
+
+----> http://www.espn.com/soccer/stats/_/league/UEFA.CHAMPIONS/season/2016/view/discipline
+
+
+##### TO DO LIST ... #####
+
+- prep the final database for the group stages as we plan to seperate it from the
+elimination rounds because it's completely different
+
+- prep the final database for the players
+
+- collecting the data for the whole year span (2013-2019)
+
+- merge everything
+
+- start cleaning, analyzing etc ....
