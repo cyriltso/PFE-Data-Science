@@ -38,6 +38,7 @@ In the Test's branch:
 - Shell
 - HTML, CSS
 - Selenium
+- BeautifulSoup
 - Os
 - Pandas
 - Scikit-Learn
