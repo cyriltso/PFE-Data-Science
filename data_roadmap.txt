@@ -6,13 +6,18 @@ UCL and championship
 
 - nb of game played (total, C1, League) OK
 - nb of victories, losses, draws (total, C1, league) OK
-- same as above but at home and away
+- same as above but at home and away 404
 - nb of goal scored and conceded on the year (total, C1, league) OK
 - nb of yellow and red cards (total, C1, league) OK
-- percentage of possession (total, C1, league) 
+- percentage of possession (total, C1, league) 404
+
+################
+
 - mean age of the team
-- maximum and minimum age
-- standard deviation of the age 
+- maximum and minimum age           --> hard to find because we have to scrape the data of each team engaged in the competition,
+- standard deviation of the age         which varies each year (as the teams are qualified from their national championship)
+
+################
 
 -------Players (for each player, for each year) ----------
 - his team
@@ -42,11 +47,12 @@ UCL and championship
 
 ----> http://www.espn.com/soccer/stats/_/league/UEFA.CHAMPIONS/season/2016/view/discipline
 
-
-##### TO DO LIST ... #####
+##### DONE THE 4/12/18 #####
 
 - prep the final database for the group stages as we plan to seperate it from the
 elimination rounds because it's completely different
+
+##### TO DO LIST ... #####
 
 - prep the final database for the players
 
