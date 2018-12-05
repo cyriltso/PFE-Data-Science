@@ -1,0 +1,51 @@
+YEAR,CATEGORIES 1,RANK_S,NAME_S,TEAM_S,P_S,G,CATEGORIES 2,RANK_A,NAME_A,TEAM_A,P_A,A
+2016-17,Scorers,1,Cristiano Ronaldo,Real Madrid,13,12,Assists,1,Neymar  ,Barcelona  ,9,8
+2016-17,Scorers,2,Lionel Messi,Barcelona  ,9,11,Assists,2,Ousmane Dembélé,Borussia Dortmund,10,6
+2016-17,Scorers,3,Robert Lewandowski,Bayern Munich,9,8,Assists,3,Cristiano Ronaldo,Real Madrid,13,5
+2016-17,Scorers, ,Edinson Cavani,Paris Saint-Germain,8,8,Assists, ,Dani Carvajal,Real Madrid,11,5
+2016-17,Scorers,5,Pierre-Emerick Aubameyang,Borussia Dortmund,9,7,Assists,5,Thomas Lemar,AS Monaco,12,4
+2016-17,Scorers,6,Antoine Griezmann,Atletico Madrid,12,6,Assists, ,Dani Alves,Juventus  ,12,4
+2016-17,Scorers, ,Kylian Mbappé,AS Monaco,9,6,Assists,7,Miralem Pjanic,Juventus  ,12,3
+2016-17,Scorers,8,Karim Benzema,Real Madrid,13,5,Assists, ,Fabinho  ,AS Monaco,10,3
+2016-17,Scorers, ,Gonzalo Higuaín,Juventus  ,12,5,Assists, ,Thiago  ,Bayern Munich,9,3
+2016-17,Scorers, ,Dries Mertens,Napoli  ,8,5,Assists, ,Douglas Costa,Bayern Munich,9,3
+2016-17,Scorers, ,Radamel Falcao,AS Monaco,8,5,Assists, ,Faouzi Ghoulam,Napoli  ,8,3
+2016-17,Scorers, ,Sergio Agüero,Manchester City,7,5,Assists, ,Alexis Sánchez,Arsenal  ,8,3
+2016-17,Scorers,13,Saúl Ñíguez,Atletico Madrid,12,4,Assists, ,Mesut Özil,Arsenal  ,8,3
+2016-17,Scorers, ,Paulo Dybala,Juventus  ,11,4,Assists, ,Benjamin Mendy,AS Monaco,7,3
+2016-17,Scorers, ,Riyad Mahrez,Leicester City,9,4,Assists, ,Raheem Sterling,Manchester City,7,3
+2016-17,Scorers, ,Neymar  ,Barcelona  ,9,4,Assists, ,Ludwig Augustinsson,FC Copenhagen,6,3
+2016-17,Scorers, ,Mesut Özil,Arsenal  ,8,4,Assists, ,Layvin Kurzawa,Paris Saint-Germain,5,3
+2016-17,Scorers, ,André Silva,FC Porto,8,4,Assists,18,Antoine Griezmann,Atletico Madrid,12,2
+2016-17,Scorers, ,Di María,Paris Saint-Germain,7,4,Assists, ,Marcelo  ,Real Madrid,11,2
+2016-17,Scorers, ,Theo Walcott,Arsenal  ,6,4,Assists, ,Sergio Ramos,Real Madrid,11,2
+2016-17,Scorers, ,Arda Turan,Barcelona  ,5,4,Assists, ,Christian Pulisic,Borussia Dortmund,10,2
+2016-17,Scorers, ,Marco Reus,Borussia Dortmund,4,4,Assists, ,Casemiro  ,Real Madrid,9,2
+2016-17,Scorers,23,Dani Alves,Juventus  ,12,3,Assists, ,Riyad Mahrez,Leicester City,9,2
+2016-17,Scorers, ,Mario Mandzukic,Juventus  ,11,3,Assists, ,Luis Suárez,Barcelona  ,9,2
+2016-17,Scorers, ,Álvaro Morata,Real Madrid,9,3,Assists, ,David Alaba,Bayern Munich,9,2
+2016-17,Scorers, ,Luis Suárez,Barcelona  ,9,3,Assists, ,Lionel Messi,Barcelona  ,9,2
+2016-17,Scorers, ,Thomas Müller,Bayern Munich,9,3,Assists, ,Eduardo Salvio,Benfica  ,8,2
+2016-17,Scorers, ,Marco Asensio,Real Madrid,8,3,Assists, ,Marek Hamsik,Napoli  ,8,2
+2016-17,Scorers, ,Joshua Kimmich,Bayern Munich,8,3,Assists, ,Mariano  ,Sevilla FC,8,2
+2016-17,Scorers, ,Eduardo Salvio,Benfica  ,8,3,Assists, ,Dries Mertens,Napoli  ,8,2
+2016-17,Scorers, ,Arturo Vidal,Bayern Munich,8,3,Assists, ,André Silva,FC Porto,8,2
+2016-17,Scorers, ,Alexis Sánchez,Arsenal  ,8,3,Assists, ,Alex Telles,FC Porto,7,2
+2016-17,Scorers, ,Arjen Robben,Bayern Munich,8,3,Assists, ,Kevin Kampl,Bayer Leverkusen,7,2
+2016-17,Scorers, ,Moussa Dembélé,Celtic  ,6,3,Assists, ,Marco Verratti,Paris Saint-Germain,7,2
+2016-17,Scorers, ,Dmitriy Poloz,Rostov  ,6,3,Assists, ,Marcel Schmelzer,Borussia Dortmund,7,2
+2016-17,Scorers, ,Vincent Aboubakar,Besiktas  ,6,3,Assists, ,Sergio Agüero,Manchester City,7,2
+2016-17,Scorers, ,Ricardo Quaresma,Besiktas  ,6,3,Assists, ,David Silva,Manchester City,7,2
+2016-17,Scorers, ,Shinji Kagawa,Borussia Dortmund,5,3,Assists, ,Jonathan Cafú,Ludogorets Razgrad,6,2
+2016-17,Scorers, ,Arkadiusz Milik,Napoli  ,4,3,Assists, ,Hakan Calhanoglu,Bayer Leverkusen,6,2
+2016-17,Scorers, ,Lucas Pérez,Arsenal  ,3,3,Assists, ,Dmitriy Poloz,Rostov  ,6,2
+2016-17,Scorers,41,Thomas Lemar,AS Monaco,12,2,Assists, ,Thomas Meunier,Paris Saint-Germain,6,2
+2016-17,Scorers, ,Yannick Carrasco,Atletico Madrid,12,2,Assists, ,Aleksandar Kolarov,Manchester City,6,2
+2016-17,Scorers, ,Valère Germain,AS Monaco,12,2,Assists, ,James Rodríguez,Real Madrid,6,2
+2016-17,Scorers, ,Bernardo Silva,AS Monaco,11,2,Assists, ,Franck Ribéry,Bayern Munich,6,2
+2016-17,Scorers, ,Ousmane Dembélé,Borussia Dortmund,10,2,Assists, ,Miroslav Radovic,Legia Warsaw,6,2
+2016-17,Scorers, ,Raphaël Varane,Real Madrid,10,2,Assists, ,Ricardo Quaresma,Besiktas  ,6,2
+2016-17,Scorers, ,Casemiro Real,Madrid  ,9,2,Assists, ,Andriy Yarmolenko,Dynamo Kiev,5,2
+2016-17,Scorers, ,Jamie Vardy,Leicester City,9,2,Assists, ,Shinji Kagawa,Borussia Dortmund,5,2
+2016-17,Scorers, ,Thiago Bayern,Munich  ,9,2,Assists, ,Rafael  ,Lyon  ,5,2
+2016-17,Scorers, ,Marc Albrighton,Leicester City,9,2,Assists, ,Leroy Sané,Manchester City,4,2

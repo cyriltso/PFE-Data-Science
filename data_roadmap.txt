@@ -20,14 +20,10 @@ UCL and championship
 ################
 
 -------Players (for each player, for each year) ----------
-- his team
-- nb of game played (total, league, C1) 
-- nb of goals scored
-- nb of yellow and red cards
-
--------Performances ----------
-- Match Performance
-- Streaks
+- his team OK
+- nb of game played (total, league, C1) OK
+- nb of goals scored OK
+- nb of yellow and red cards 404
 
 ##### DONE THE 3/12/18 #####
 
@@ -52,12 +48,14 @@ UCL and championship
 - prep the final database for the group stages as we plan to seperate it from the
 elimination rounds because it's completely different
 
-##### TO DO LIST ... #####
+##### DONE THE 5/12/18 #####
 
-- prep the final database for the players
+- prep the final database for the players (goals and assists)
+
+##### TO DO LIST ... #####
 
 - collecting the data for the whole year span (2013-2019)
 
-- merge everything
+- in the end, we will have 3 separate databases (teams gp, teams er, players)
 
 - start cleaning, analyzing etc ....
