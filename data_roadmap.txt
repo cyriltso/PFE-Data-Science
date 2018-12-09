@@ -69,6 +69,6 @@ elimination rounds because it's completely different
 
 - need to add the 2017-2018 season to the database
 
-- players to add
+- players to add, group stages to add
 
 - start cleaning, analyzing etc ....
