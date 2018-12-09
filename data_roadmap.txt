@@ -6,10 +6,10 @@ UCL and championship
 
 - nb of game played (total, C1, League) OK
 - nb of victories, losses, draws (total, C1, league) OK
-- same as above but at home and away 404
+- same as above but at home and away OK
 - nb of goal scored and conceded on the year (total, C1, league) OK
 - nb of yellow and red cards (total, C1, league) OK
-- percentage of possession (total, C1, league) 404
+- percentage of possession (total, C1, league) OK
 
 ################
 
@@ -51,6 +51,15 @@ elimination rounds because it's completely different
 ##### DONE THE 5/12/18 #####
 
 - prep the final database for the players (goals and assists)
+
+##### DONE THE 9/12/18 #####
+
+- found detailed data (possession, tackles, etc..)
+
+----> fr.whoscored.com
+
+- all the data related to the teams got joined into a single DataFrame
+- cancelled the data acquisition related the group stages (not relevant actually)
 
 ##### TO DO LIST ... #####
 
