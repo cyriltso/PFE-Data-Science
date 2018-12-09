@@ -68,18 +68,18 @@ def sum_stats(url, year, name):
 
     db.to_csv(os.path.join(path, name), index = False)
 
-sum_stats(url, year, name)
+#sum_stats(url, year, name)
 
 ### Acquiring data for the teams' stats from footystats.org ###
 
     ## Variables ##
 
-url = 'https://footystats.org/europe/uefa-champions-league/2015-2016/overview'
-path = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Semi Final"
-year = '2015/16'
-round = 'Semi-Finals'
-xpath = '//*[@id="content"]/div[3]/div[3]/div/div[6]/div[1]/table'
-file_path = '2016-2017 UCL Teams Semi Final stats.csv'
+url = 'https://footystats.org/europe/uefa-champions-league/2013-2014/overview'
+path = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Round of 16"
+year = '2013/14'
+round = '8th Finals'
+xpath = '//*[@id="content"]/div[3]/div[3]/div/div[9]/div[1]/table'
+file_path = '2013-2014 UCL Teams 8th Final stats.csv'
 
     ## Scraping Algorithm ##
 
@@ -125,7 +125,11 @@ def team_stats(url, path, year, round, xpath, file_path):
     print(team_stat_2)
 
     for content in team_all:
-        if len(content) == 10:
+        if len(content) == 9:
+            content.insert(2, ' ')
+            content.insert(3, ' ')
+            content.insert(4, ' ')
+        elif len(content) == 10:
             content.insert(3, ' ')
             content.insert(4, ' ')
         elif len(content) == 11:
@@ -169,21 +173,29 @@ def team_stats(url, path, year, round, xpath, file_path):
 
     ## Variables ##
 
-        # Concatening #
+        # First Concatening #
 
 path_c = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Elimination Round"
-ro16 = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Round of 16/2016-2017 UCL Teams 8th Finals stats.csv"
-qf = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Quarter Final/2016-2017 UCL Teams Quarter Final stats.csv"
-sf = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Semi Final/2016-2017 UCL Teams Semi Final stats.csv"
-f = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Final/2016-2017 UCL Teams Final stats.csv"
-file_name = "2016-2017 UCL Teams ER stats.csv"
+ro16 = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Round of 16/2013-2014 UCL Teams 8th Final stats.csv"
+qf = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Quarter Final/2013-2014 UCL Teams Quarter Final stats.csv"
+sf = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Semi Final/2013-2014 UCL Teams Semi Final stats.csv"
+f = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Final/2013-2014 UCL Teams Final stats.csv"
+file_name = "2013-2014 UCL Teams ER stats.csv"
+
+        # Second Concatening #
+
+concat_1 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2013-2014 UCL Teams Stats.csv"
+concat_2 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2014-2015 UCL Teams Stats.csv"
+concat_3 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2015-2016 UCL Teams Stats.csv"
+concat_4 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2016-2017 UCL Teams Stats.csv"
+file_name_2 = "UCL Teams Stats.csv"
 
         # Joining #
 
-path_j = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data"
-file_join = "/Users/cyriltso/Documents/UCL Statistics/Teams' Stats/Elimination Round/2016-2017 UCL Teams ER stats.csv"
-ds = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Detailed stats/2016-2017 UCL Teams Summary stats.csv"
-name = "2016-2017 UCL Teams Stats.csv"
+path_j = "/Users/cyriltso/Documents/UCL Statistics/Teams Database"
+file_join = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Elimination Round/2015-2016 UCL Teams ER stats.csv"
+ds = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Detailed stats/2015-2016 UCL Teams Summary stats.csv"
+name = "2015-2016 UCL Teams Stats.csv"
 
     ## Concatenating the DataFrames ##
 
@@ -198,7 +210,7 @@ def concat(path, p1, p2, p3, p4, f_name):
 
     final_db.to_csv(os.path.join(path, f_name), index=False)
 
-#concat(path_c, ro16, qf, sf, f, file_name)
+concat(path_j, concat_1, concat_2, concat_3, concat_4, file_name_2)
 
     ## Joining the DataFrames ##
 

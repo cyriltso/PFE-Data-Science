@@ -63,8 +63,12 @@ elimination rounds because it's completely different
 
 ##### TO DO LIST ... #####
 
-- collecting the data for the whole year span (2013-2019)
+- collecting the data for the whole year span (2013-2017)
+    --> whoscored ok
+    --> other website left to scrape ok
 
-- in the end, we will have 3 separate databases (teams gp, teams er, players)
+- need to add the 2017-2018 season to the database
+
+- players to add
 
 - start cleaning, analyzing etc ....

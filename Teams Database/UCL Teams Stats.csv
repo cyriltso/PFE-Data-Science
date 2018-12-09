@@ -1,0 +1,121 @@
+YEAR,ROUND,RANK,TEAM,MP,W,D,L,GF,GA,GD,Last 5,CS,BTTS,FTS,Over 1.5+,Over 2.5+,AVG,VIEW,RANK_S,TEAM_DS,GOALS,SHOTS,"DISCIPLINE(Y,R/10)",POSSESSION,PASS%,AW,RATING
+2013/14,8th Finals,1,Real Madrid CF  ,2,2,0,0,9,2,7,WW,38%,54%,8%,92%,77%,3.92,OVERALL,1,Real Madrid,41,16.2,241.0,52.1,86.2,13.7,7.31
+2013/14,8th Finals,2,Paris Saint-Germain FC  ,2,2,0,0,6,1,5,WW,30%,60%,10%,100%,80%,3.4,OVERALL,2,Barcelona  ,21,14.8,200.0,64.2,90.2,11.1,7.19
+2013/14,8th Finals,3,Club Atlético de Madrid,2,2,0,0,5,1,4,WW,46%,54%,8%,77%,54%,2.77,OVERALL,3,Bayern Munich,24,19.9,132.0,65.2,89.7,12.9,7.15
+2013/14,8th Finals,4,FC Barcelona    ,2,2,0,0,4,1,3,WW,30%,60%,10%,80%,50%,2.9,OVERALL,4,Paris Saint-Germain,25,11.8,191.0,59.8,89.7,11.2,7.12
+2013/14,8th Finals,5,FC Bayern München  ,2,1,1,0,3,1,2,WD,33%,50%,17%,83%,58%,3.08,OVERALL,5,Atletico Madrid,26,13.9,340.0,46.2,76.6,16.1,7.06
+2013/14,8th Finals,6,Chelsea FC    ,2,1,1,0,3,1,2,DW,58%,33%,17%,75%,50%,2.42,OVERALL,6,Chelsea  ,19,12.1,250.0,49.7,82.2,16.8,7.0
+2013/14,8th Finals,7,BVB 09 Borussia Dortmund,2,1,0,1,5,4,1,WL,20%,60%,20%,90%,80%,3.1,OVERALL,7,Manchester United,17,10.2,161.0,49.8,80.5,17.7,7.0
+2013/14,8th Finals,8,Manchester United FC  ,2,1,0,1,3,2,1,LW,50%,40%,20%,70%,40%,2.6,OVERALL,8,Borussia Dortmund,18,14.5,191.0,47.3,78.9,13.5,6.93
+2013/14,8th Finals,9,FK Zenit St. Petersburg,2,1,0,1,4,5,-1,LW,33%,67%,8%,75%,58%,3.33,OVERALL,9,Manchester City,19,13.9,212.0,48.4,83.1,13.4,6.86
+2013/14,8th Finals,10,Olympiakos CFP    ,2,1,0,1,2,3,-1,WL,38%,50%,13%,88%,63%,2.88,OVERALL,10,Olympiacos  ,12,12.3,210.0,45.7,76.6,13.9,6.86
+2013/14,8th Finals,11,Arsenal FC    ,2,0,1,1,1,3,-2,LD,50%,30%,20%,90%,30%,2.2,OVERALL,11,FC Porto,4,18.0,131.0,57.3,82.7,14.5,6.83
+2013/14,8th Finals,12,Galatasaray      ,2,0,1,1,1,3,-2,DL,13%,63%,25%,75%,50%,3.25,OVERALL,12,Arsenal  ,9,8.4,112.0,49.9,82.9,17.5,6.8
+2013/14,8th Finals,13,Manchester City FC  ,2,0,0,2,1,4,-3,LL,13%,75%,13%,100%,88%,4.13,OVERALL,13,Napoli  ,10,12.8,110.0,49.4,80.8,12.2,6.8
+2013/14,8th Finals,14,AC Milan    ,2,0,0,2,1,5,-4,LL,40%,50%,20%,80%,40%,2.4,OVERALL,14,AC Milan,9,9.5,181.0,44.7,80.5,10.6,6.79
+2013/14,8th Finals,15,Bayer 04 Leverkusen  ,2,0,0,2,1,6,-5,LL,38%,38%,38%,75%,75%,3.25,OVERALL,15,Zenit St.,Petersburg,9.0,13.4,161.0,55.7,80.9,12.1
+2013/14,8th Finals,16,FC Schalke 04  ,2,0,0,2,2,9,-7,LL,40%,40%,30%,80%,60%,3.0,OVERALL,16,FC Basel,1893,5.0,10.0,131.0,50.8,80.6,14.0
+2013/14,Quarter Finals,1,FC Bayern München  ,2,1,1,0,4,2,2,DW,33%,50%,17%,83%,58%,3.08,OVERALL,17,Ajax  ,5,13.8,101.0,54.0,84.6,14.7,6.76
+2013/14,Quarter Finals,2,Club Atlético de Madrid,2,1,1,0,2,1,1,DW,46%,54%,8%,77%,54%,2.77,OVERALL,18,Shakhtar Donetsk,7,12.2,130.0,48.9,81.4,11.5,6.76
+2013/14,Quarter Finals,3,Real Madrid CF  ,2,1,0,1,3,2,1,WL,38%,54%,8%,92%,77%,3.92,OVERALL,19,Juventus  ,9,20.2,91.0,50.4,83.4,15.2,6.74
+2013/14,Quarter Finals,4,Chelsea FC    ,2,1,0,1,3,3,0,LW,58%,33%,17%,75%,50%,2.42,OVERALL,20,Schalke 04,8,12.8,180.0,49.7,83.4,13.6,6.72
+2013/14,Quarter Finals,5,Paris Saint-Germain FC  ,2,1,0,1,3,3,0,WL,30%,60%,10%,100%,80%,3.4,OVERALL,21,Austria Wien,5,9.8,170.0,39.8,73.7,12.7,6.71
+2013/14,Quarter Finals,6,BVB 09 Borussia Dortmund,2,1,0,1,2,3,-1,LW,20%,60%,20%,90%,80%,3.1,OVERALL,22,Galatasaray  ,9,10.3,140.0,51.0,82.0,15.6,6.7
+2013/14,Quarter Finals,7,FC Barcelona    ,2,0,1,1,1,2,-1,DL,30%,60%,10%,80%,50%,2.9,OVERALL,23,Bayer Leverkusen,10,13.4,192.0,45.9,81.1,13.9,6.69
+2013/14,Quarter Finals,8,Manchester United FC  ,2,0,1,1,2,4,-2,DL,50%,40%,20%,70%,40%,2.6,OVERALL,24,Benfica  ,8,12.2,110.0,49.7,80.7,11.3,6.69
+2013/14,Semi Finals,1,Real Madrid CF  ,2,2,0,0,5,0,5,WW,38%,54%,8%,92%,77%,3.92,OVERALL,25,FC FCSB,2,10.7,130.0,43.8,77.7,15.7,6.68
+2013/14,Semi Finals,2,Club Atlético de Madrid,2,1,1,0,3,1,2,DW,46%,54%,8%,77%,54%,2.77,OVERALL,26,FC Copenhagen,4,9.0,90.0,44.9,81.6,11.5,6.67
+2013/14,Semi Finals,3,Chelsea FC    ,2,0,1,1,1,3,-2,DL,58%,33%,17%,75%,50%,2.42,OVERALL,27,CSKA Moscow,8,12.8,52.0,42.2,79.7,9.2,6.63
+2013/14,Semi Finals,4,FC Bayern München  ,2,0,0,2,0,5,-5,LL,33%,50%,17%,83%,58%,3.08,OVERALL,28,Marseille  ,5,10.2,131.0,46.1,82.2,11.2,6.59
+2013/14,Finals,1,Real Madrid CF  ,1,1,0,0,4,1,3,W,38%,54%,8%,92%,77%,3.92,OVERALL,29,Real Sociedad,1,12.8,120.0,49.5,78.2,15.2,6.52
+2013/14,Finals,2,Club Atlético de Madrid,1,0,0,1,1,4,-3,L,46%,54%,8%,77%,54%,2.77,OVERALL,30,Anderlecht  ,4,10.3,164.0,43.4,79.0,10.0,6.48
+2014/15,8th Finals,1,Juventus FC    ,2,2,0,0,5,1,4,WW,46%,38%,31%,62%,38%,2.08,OVERALL,1,Real Madrid,24,18.7,210.0,55.7,88.1,12.8,7.24
+2014/15,8th Finals,2,FC Barcelona    ,2,2,0,0,3,1,2,WW,46%,54%,0%,85%,69%,3.23,OVERALL,2,Barcelona  ,32,14.8,181.0,58.6,88.2,10.1,7.22
+2014/15,8th Finals,3,FC Bayern München  ,2,1,1,0,7,0,7,DW,50%,42%,17%,75%,67%,3.83,OVERALL,3,Chelsea  ,18,15.0,130.0,52.9,86.2,13.4,7.21
+2014/15,8th Finals,4,FC Porto    ,2,1,1,0,5,1,4,DW,50%,50%,0%,92%,58%,3.33,OVERALL,4,Atletico Madrid,15,12.6,282.0,45.3,75.8,24.6,7.11
+2014/15,8th Finals,5,Real Madrid CF  ,2,1,0,1,5,4,1,WL,58%,42%,8%,67%,50%,2.75,OVERALL,5,Arsenal  ,18,12.6,141.0,55.6,84.9,16.6,7.1
+2014/15,8th Finals,6,Arsenal FC    ,2,1,0,1,3,3,0,LW,40%,50%,20%,80%,50%,3.0,OVERALL,6,Bayern Munich,33,17.2,242.0,60.7,87.9,12.0,7.1
+2014/15,8th Finals,7,AS Monaco FC  ,2,1,0,1,3,3,0,WL,60%,10%,60%,30%,10%,1.2,OVERALL,7,FC Porto,25,12.9,191.0,55.7,82.3,15.1,7.09
+2014/15,8th Finals,8,Club Atlético de Madrid,2,1,0,1,1,1,0,LW,70%,10%,40%,40%,30%,2.0,OVERALL,8,Borussia Dortmund,15,14.6,40.0,52.1,83.1,13.9,7.0
+2014/15,8th Finals,9,Bayer 04 Leverkusen  ,2,1,0,1,1,1,0,WL,40%,30%,40%,50%,40%,2.2,OVERALL,9,Juventus  ,17,12.7,250.0,54.1,84.1,17.4,6.94
+2014/15,8th Finals,10,FC Schalke 04  ,2,1,0,1,4,5,-1,LW,13%,63%,25%,88%,50%,4.0,OVERALL,10,Paris Saint-Germain,13,11.9,141.0,49.4,87.6,12.8,6.94
+2014/15,8th Finals,11,Chelsea FC    ,2,0,2,0,3,3,0,DD,38%,63%,0%,88%,50%,3.25,OVERALL,11,Anderlecht  ,8,11.8,100.0,43.4,80.0,10.0,6.92
+2014/15,8th Finals,12,Paris Saint-Germain FC  ,2,0,2,0,3,3,0,DD,20%,70%,10%,80%,50%,2.9,OVERALL,12,Monaco  ,7,9.7,220.0,44.9,74.9,16.2,6.92
+2014/15,8th Finals,13,FC Basel 1893  ,2,0,1,1,1,5,-4,DL,25%,38%,38%,63%,38%,2.63,OVERALL,13,Bayer Leverkusen,8,13.9,192.0,51.6,71.7,23.8,6.91
+2014/15,8th Finals,14,FC Shakhtar Donetsk  ,2,0,1,1,0,7,-7,DL,50%,25%,50%,63%,50%,3.25,OVERALL,14,Shakhtar Donetsk,15,8.9,201.0,47.4,79.3,11.5,6.9
+2014/15,8th Finals,15,Manchester City FC  ,2,0,0,2,1,3,-2,LL,13%,63%,25%,75%,50%,2.63,OVERALL,15,Sporting CP,12,17.2,151.0,49.2,79.9,15.2,6.81
+2014/15,8th Finals,16,BVB 09 Borussia Dortmund,2,0,0,2,1,5,-4,LL,38%,38%,25%,100%,63%,3.0,OVERALL,16,Benfica  ,2,11.7,143.0,51.1,75.8,19.3,6.8
+2014/15,Quarter Finals,1,FC Barcelona    ,2,2,0,0,5,1,4,WW,46%,54%,0%,85%,69%,3.23,OVERALL,17,Athletic Bilbao,5,13.5,170.0,50.3,73.7,21.8,6.77
+2014/15,Quarter Finals,2,Juventus FC    ,2,1,1,0,1,0,1,WD,46%,38%,31%,62%,38%,2.08,OVERALL,18,Ajax  ,8,11.2,141.0,52.8,87.5,7.8,6.77
+2014/15,Quarter Finals,3,Real Madrid CF  ,2,1,1,0,1,0,1,DW,58%,42%,8%,67%,50%,2.75,OVERALL,19,Schalke 04,13,14.3,110.0,50.8,83.9,13.8,6.75
+2014/15,Quarter Finals,4,FC Bayern München  ,2,1,0,1,7,4,3,LW,50%,42%,17%,75%,67%,3.83,OVERALL,20,Manchester City,10,12.0,193.0,48.4,84.4,12.8,6.75
+2014/15,Quarter Finals,5,FC Porto    ,2,1,0,1,4,7,-3,WL,50%,50%,0%,92%,58%,3.33,OVERALL,21,Olympiacos  ,10,11.3,100.0,47.8,81.6,14.3,6.75
+2014/15,Quarter Finals,6,Club Atlético de Madrid,2,0,1,1,0,1,-1,DL,70%,10%,40%,40%,30%,2.0,OVERALL,22,Liverpool  ,5,13.0,81.0,49.5,84.7,13.2,6.74
+2014/15,Quarter Finals,7,AS Monaco FC  ,2,0,1,1,0,1,-1,LD,60%,10%,60%,30%,10%,1.2,OVERALL,23,Zenit St.,Petersburg,4.0,10.0,150.0,53.2,78.9,19.2
+2014/15,Quarter Finals,8,Paris Saint-Germain FC  ,2,0,0,2,1,5,-4,LL,20%,70%,10%,80%,50%,2.9,OVERALL,24,Roma  ,8,10.5,70.0,48.6,84.4,8.8,6.73
+2014/15,Semi Finals,1,Juventus FC    ,2,1,1,0,3,2,1,WD,46%,38%,31%,62%,38%,2.08,OVERALL,25,FC Basel,1893,8.0,11.9,222.0,46.2,81.1,10.0
+2014/15,Semi Finals,2,FC Barcelona    ,2,1,0,1,5,3,2,WL,46%,54%,0%,85%,69%,3.23,OVERALL,26,CSKA Moscow,6,12.0,100.0,38.1,77.9,7.7,6.63
+2014/15,Semi Finals,3,FC Bayern München  ,2,1,0,1,3,5,-2,LW,50%,42%,17%,75%,67%,3.83,OVERALL,27,Malmoe FF,4,11.2,152.0,43.4,77.0,14.2,6.54
+2014/15,Semi Finals,4,Real Madrid CF  ,2,0,1,1,2,3,-1,LD,58%,42%,8%,67%,50%,2.75,OVERALL,28,Ludogorets Razgrad,5,12.3,131.0,47.9,82.4,7.7,6.52
+2014/15,Finals,1,FC Barcelona    ,1,1,0,0,3,1,2,W,46%,54%,0%,85%,69%,3.23,OVERALL,29,Maribor  ,4,11.0,120.0,43.4,77.5,10.2,6.47
+2014/15,Finals,2,Juventus FC    ,1,0,0,1,1,3,-2,L,46%,38%,31%,62%,38%,2.08,OVERALL,30,Galatasaray  ,4,15.2,161.0,50.4,84.7,10.2,6.45
+2015/16,8th Finals,1,FC Barcelona    ,2,2,0,0,5,1,4,WW,30%,60%,10%,100%,50%,3.0,OVERALL,1,Real Madrid,27,21.2,240.0,54.6,88.2,12.1,7.22
+2015/16,8th Finals,2,Real Madrid CF  ,2,2,0,0,4,0,4,WW,77%,15%,23%,69%,31%,2.62,OVERALL,2,Barcelona  ,22,16.8,230.0,64.8,87.7,10.4,7.17
+2015/16,8th Finals,3,Paris Saint-Germain FC  ,2,2,0,0,4,2,2,WW,50%,30%,30%,70%,50%,2.4,OVERALL,3,Bayern Munich,30,21.7,201.0,66.6,89.6,13.8,7.13
+2015/16,8th Finals,4,VfL Wolfsburg    ,2,2,0,0,4,2,2,WW,50%,30%,20%,80%,40%,2.6,OVERALL,4,Paris Saint-Germain,18,13.8,220.0,60.7,89.3,13.5,7.13
+2015/16,8th Finals,5,SL Benfica    ,2,2,0,0,3,1,2,WW,20%,70%,10%,80%,70%,2.7,OVERALL,5,Atletico Madrid,17,15.0,211.0,48.0,79.8,18.2,7.12
+2015/16,8th Finals,6,FC Bayern München  ,2,1,1,0,6,4,2,DW,42%,42%,17%,83%,67%,3.42,OVERALL,6,Chelsea  ,15,13.8,150.0,48.8,81.4,13.4,7.09
+2015/16,8th Finals,7,Manchester City FC  ,2,1,1,0,3,1,2,WD,25%,58%,33%,58%,58%,2.5,OVERALL,7,FC Porto,9,15.2,130.0,53.9,83.0,13.7,6.98
+2015/16,8th Finals,8,Club Atlético de Madrid,2,0,2,0,0,0,0,DD,62%,38%,23%,69%,38%,1.92,OVERALL,8,Arsenal  ,13,13.1,151.0,46.5,82.5,13.4,6.94
+2015/16,8th Finals,9,PSV Eindhoven    ,2,0,2,0,0,0,0,DD,50%,38%,50%,63%,38%,1.88,OVERALL,9,Bayer Leverkusen,13,16.3,121.0,52.3,76.8,20.3,6.93
+2015/16,8th Finals,10,Juventus FC    ,2,0,1,1,4,6,-2,DL,38%,50%,25%,63%,38%,2.38,OVERALL,10,Juventus  ,10,16.0,141.0,43.6,81.8,15.5,6.92
+2015/16,8th Finals,11,FC Dynamo Kyiv  ,2,0,1,1,1,3,-2,LD,63%,38%,25%,63%,38%,2.0,OVERALL,11,Manchester City,18,13.0,150.0,48.5,82.6,13.0,6.92
+2015/16,8th Finals,12,Chelsea FC    ,2,0,0,2,2,4,-2,LL,50%,50%,13%,88%,75%,2.75,OVERALL,12,PSV Eindhoven,8,9.0,182.0,47.3,78.6,15.8,6.91
+2015/16,8th Finals,13,KAA Gent    ,2,0,0,2,2,4,-2,LL,13%,75%,13%,75%,63%,2.63,OVERALL,13,Zenit St.,Petersburg,14.0,10.4,232.0,44.3,77.3,16.0
+2015/16,8th Finals,14,FK Zenit St. Petersburg,2,0,0,2,1,3,-2,LL,25%,63%,13%,88%,63%,2.88,OVERALL,14,Wolfsburg  ,15,12.7,180.0,48.3,81.6,12.8,6.9
+2015/16,8th Finals,15,Arsenal FC    ,2,0,0,2,1,5,-4,LL,38%,50%,13%,100%,75%,3.5,OVERALL,15,Benfica  ,15,13.4,281.0,49.6,80.0,14.0,6.9
+2015/16,8th Finals,16,AS Roma    ,2,0,0,2,0,4,-4,LL,13%,63%,38%,88%,50%,3.88,OVERALL,16,Sevilla  ,8,13.7,70.0,51.4,84.2,16.3,6.78
+2015/16,Quarter Finals,1,FC Bayern München  ,2,1,1,0,3,2,1,WD,42%,42%,17%,83%,67%,3.42,OVERALL,17,Lyon  ,5,17.7,131.0,54.2,83.2,14.7,6.76
+2015/16,Quarter Finals,2,Manchester City FC  ,2,1,1,0,3,2,1,DW,25%,58%,33%,58%,58%,2.5,OVERALL,18,Dynamo Kyiv,9,11.9,180.0,50.4,81.0,13.8,6.76
+2015/16,Quarter Finals,3,Club Atlético de Madrid,2,1,0,1,3,2,1,LW,62%,38%,23%,69%,38%,1.92,OVERALL,19,Manchester United,7,14.2,110.0,58.9,84.1,15.7,6.75
+2015/16,Quarter Finals,4,Real Madrid CF  ,2,1,0,1,3,2,1,LW,77%,15%,23%,69%,31%,2.62,OVERALL,20,Borussia M.Gladbach,8,14.7,110.0,48.8,81.0,11.2,6.74
+2015/16,Quarter Finals,5,FC Barcelona    ,2,1,0,1,2,3,-1,WL,30%,60%,10%,100%,50%,3.0,OVERALL,21,Gent  ,10,10.5,182.0,52.2,80.7,12.3,6.74
+2015/16,Quarter Finals,6,VfL Wolfsburg    ,2,1,0,1,2,3,-1,WL,50%,30%,20%,80%,40%,2.6,OVERALL,22,Galatasaray  ,6,14.5,130.0,48.7,80.7,13.7,6.7
+2015/16,Quarter Finals,7,SL Benfica    ,2,0,1,1,2,3,-1,LD,20%,70%,10%,80%,70%,2.7,OVERALL,23,Roma  ,11,14.3,100.0,44.5,78.3,15.6,6.69
+2015/16,Quarter Finals,8,Paris Saint-Germain FC  ,2,0,1,1,2,3,-1,DL,50%,30%,30%,70%,50%,2.4,OVERALL,24,CSKA Moscow,6,8.8,100.0,41.2,75.3,10.3,6.69
+2015/16,Semi Finals,1,Real Madrid CF  ,2,1,1,0,1,0,1,DW,77%,15%,23%,69%,31%,2.62,OVERALL,25,Valencia  ,5,12.3,181.0,51.0,81.5,12.5,6.68
+2015/16,Semi Finals,2,Club Atlético de Madrid,2,1,0,1,2,2,0,WL,62%,38%,23%,69%,38%,1.92,OVERALL,26,FC Astana,5,12.7,120.0,42.2,74.4,16.0,6.65
+2015/16,Semi Finals,3,FC Bayern München  ,2,1,0,1,2,2,0,LW,42%,42%,17%,83%,67%,3.42,OVERALL,27,BATE Borisov,5,6.3,180.0,37.9,66.6,12.8,6.61
+2015/16,Semi Finals,4,Manchester City FC  ,2,0,1,1,0,1,-1,DL,25%,58%,33%,58%,58%,2.5,OVERALL,28,Olympiacos  ,6,11.8,120.0,41.8,75.8,15.0,6.6
+2015/16,Finals,1,Club Atlético de Madrid,1,0,1,0,1,1,0,D,62%,38%,23%,69%,38%,1.92,OVERALL,29,Shakhtar Donetsk,7,14.3,151.0,51.2,86.9,7.8,6.55
+2015/16,Finals,2,Real Madrid CF  ,1,0,1,0,1,1,0,D,77%,15%,23%,69%,31%,2.62,OVERALL,30,Dinamo Zagreb,3,9.8,131.0,42.1,77.2,11.0,6.44
+2016/17,8th Finals,1,FC Bayern München  ,2,2,0,0,10,2,8,WW,20%,70%,10%,80%,80%,4.1,OVERALL,1,Real Madrid,36,19.5,190.0,53.5,87.2,10.7,7.11
+2016/17,8th Finals,2,Real Madrid CF  ,2,2,0,0,6,2,4,WW,8%,92%,0%,100%,100%,4.15,OVERALL,2,Bayern Munich,27,19.3,162.0,61.9,88.6,15.0,7.06
+2016/17,8th Finals,3,Juventus FC    ,2,2,0,0,3,0,3,WW,69%,31%,15%,69%,38%,2.23,OVERALL,3,Barcelona  ,26,13.1,251.0,60.5,87.4,7.0,7.03
+2016/17,8th Finals,4,Club Atlético de Madrid,2,1,1,0,4,2,2,WD,50%,33%,25%,50%,33%,2.0,OVERALL,4,Atletico Madrid,15,13.3,210.0,48.5,80.1,17.8,7.01
+2016/17,8th Finals,5,BVB 09 Borussia Dortmund,2,1,0,1,4,1,3,LW,30%,60%,10%,80%,80%,4.4,OVERALL,5,Borussia Dortmund,28,15.4,190.0,59.3,86.2,12.1,6.99
+2016/17,8th Finals,6,FC Barcelona    ,2,1,0,1,6,5,1,LW,50%,30%,30%,90%,80%,3.8,OVERALL,6,Juventus  ,22,13.8,272.0,54.0,85.5,12.5,6.98
+2016/17,8th Finals,7,Leicester City FC  ,2,1,0,1,3,2,1,LW,50%,30%,30%,60%,40%,2.1,OVERALL,7,FC Copenhagen,7,11.2,71.0,52.5,79.1,24.5,6.94
+2016/17,8th Finals,8,Manchester City FC  ,2,1,0,1,6,6,0,WL,30%,60%,10%,90%,70%,4.0,OVERALL,8,Bayer Leverkusen,10,13.3,160.0,50.6,76.8,18.0,6.94
+2016/17,8th Finals,9,AS Monaco FC  ,2,1,0,1,6,6,0,LW,13%,75%,13%,94%,75%,3.31,OVERALL,9,Lyon  ,5,17.5,140.0,51.4,85.0,11.0,6.94
+2016/17,8th Finals,10,Paris Saint-Germain FC  ,2,1,0,1,5,6,-1,WL,25%,75%,0%,100%,88%,3.88,OVERALL,10,Arsenal  ,20,11.8,132.0,49.1,84.9,12.8,6.93
+2016/17,8th Finals,11,Sevilla FC    ,2,1,0,1,2,3,-1,WL,63%,25%,38%,50%,38%,1.88,OVERALL,11,Sevilla  ,9,13.0,152.0,57.1,83.5,13.9,6.92
+2016/17,8th Finals,12,SL Benfica    ,2,1,0,1,1,4,-3,WL,38%,50%,13%,75%,50%,3.13,OVERALL,12,Paris Saint-Germain,18,15.4,151.0,54.1,87.9,11.6,6.9
+2016/17,8th Finals,13,Bayer 04 Leverkusen  ,2,0,1,1,2,4,-2,LD,50%,50%,25%,63%,38%,2.25,OVERALL,13,Tottenham  ,6,13.8,60.0,59.1,83.2,15.8,6.89
+2016/17,8th Finals,14,FC Porto    ,2,0,0,2,0,3,-3,LL,40%,30%,40%,60%,30%,2.0,OVERALL,14,Manchester City,18,13.1,142.0,54.8,85.8,11.6,6.88
+2016/17,8th Finals,15,SSC Napoli    ,2,0,0,2,2,6,-4,LL,13%,88%,13%,88%,75%,3.38,OVERALL,15,Monaco  ,22,12.2,280.0,46.4,78.9,15.0,6.88
+2016/17,8th Finals,16,Arsenal FC    ,2,0,0,2,2,10,-8,LL,25%,75%,0%,100%,75%,4.5,OVERALL,16,FC Porto,9,13.3,152.0,49.9,81.9,17.8,6.83
+2016/17,Quarter Finals,1,AS Monaco FC  ,2,2,0,0,6,3,3,WW,13%,75%,13%,94%,75%,3.31,OVERALL,17,Leicester  ,11,10.7,190.0,42.2,71.0,19.5,6.8
+2016/17,Quarter Finals,2,Real Madrid CF  ,2,2,0,0,6,3,3,WW,8%,92%,0%,100%,100%,4.15,OVERALL,18,Benfica  ,11,11.1,130.0,45.8,79.6,9.4,6.72
+2016/17,Quarter Finals,3,Juventus FC    ,2,1,1,0,3,0,3,WD,69%,31%,15%,69%,38%,2.23,OVERALL,19,FC Rostov,6,5.5,100.0,37.2,65.5,19.0,6.67
+2016/17,Quarter Finals,4,Club Atlético de Madrid,2,1,1,0,2,1,1,WD,50%,33%,25%,50%,33%,2.0,OVERALL,20,PSV Eindhoven,4,9.3,60.0,44.7,80.1,20.7,6.66
+2016/17,Quarter Finals,5,Leicester City FC  ,2,0,1,1,1,2,-1,LD,50%,30%,30%,60%,40%,2.1,OVERALL,21,Napoli  ,13,13.5,100.0,52.4,85.5,11.0,6.62
+2016/17,Quarter Finals,6,FC Barcelona    ,2,0,1,1,0,3,-3,LD,50%,30%,30%,90%,80%,3.8,OVERALL,22,Dynamo Kyiv,8,11.2,131.0,50.5,83.5,9.2,6.62
+2016/17,Quarter Finals,7,FC Bayern München  ,2,0,0,2,3,6,-3,LL,20%,70%,10%,80%,80%,4.1,OVERALL,23,Borussia M.Gladbach,5,9.5,82.0,41.4,79.4,8.3,6.61
+2016/17,Quarter Finals,8,BVB 09 Borussia Dortmund,2,0,0,2,3,6,-3,LL,30%,60%,10%,80%,80%,4.4,OVERALL,24,Sporting CP,5,12.0,142.0,48.9,82.5,17.3,6.61
+2016/17,Semi-Finals,1,Juventus FC    ,2,2,0,0,4,1,3,WW,69%,31%,15%,69%,38%,2.23,OVERALL,25,CSKA Moscow,5,8.3,70.0,41.2,72.5,15.7,6.61
+2016/17,Semi-Finals,2,Real Madrid CF  ,2,1,0,1,4,2,2,WL,8%,92%,0%,100%,100%,4.15,OVERALL,26,Besiktas  ,9,9.3,132.0,49.2,81.8,12.7,6.56
+2016/17,Semi-Finals,3,Club Atlético de Madrid,2,1,0,1,2,4,-2,LW,50%,33%,25%,50%,33%,2.0,OVERALL,27,Ludogorets Razgrad,6,6.5,90.0,46.3,83.9,8.5,6.55
+2016/17,Semi-Finals,4,AS Monaco FC  ,2,0,0,2,1,4,-3,LL,13%,75%,13%,94%,75%,3.31,OVERALL,28,Celtic  ,5,9.0,80.0,44.8,82.8,9.5,6.49
+2016/17,Final,1,Real Madrid CF  ,1,1,0,0,4,1,3,W,8%,92%,0%,100%,100%,4.15,OVERALL,29,Club Bruges,2,8.5,140.0,48.9,78.8,20.7,6.47
+2016/17,Final,2,Juventus FC    ,1,0,0,1,1,4,-3,L,69%,31%,15%,69%,38%,2.23,OVERALL,30,FC Basel,1893,3.0,10.3,111.0,42.6,80.4,9.3
