@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a91e756-8713-4cfa-bc22-e8ddd52f2d74" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams Database/Data/2016-2017 UCL Teams Stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Teams Database/Data/2016-2017 UCL Teams Stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams Database/UCL Teams Stats.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams Database/team_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teams Database/team_stats_scraping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams' stats/Elimination Round/2016-2017 UCL Teams ER stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Teams' stats/Elimination Round/2016-2017 UCL Teams ER stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams' stats/Final/2016-2017 UCL Teams Final stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Teams' stats/Final/2016-2017 UCL Teams Final stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_roadmap.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_roadmap.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test2.py" afterDir="false" />
-    </list>
+    <list default="true" id="0a91e756-8713-4cfa-bc22-e8ddd52f2d74" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +19,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Teams Database/team_stats_scraping.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Teams Database/ucl_scraping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="325">
               <caret line="209" column="49" selection-start-line="209" selection-start-column="49" selection-end-line="209" selection-end-column="49" />
               <folding>
                 <element signature="e#30#60#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Teams Database/UCL Database.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="640">
+              <caret line="147" column="7" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -65,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LDC 2017-2018 data.csv" />
         <option value="$PROJECT_DIR$/LDC 2017-2018.py" />
         <option value="$PROJECT_DIR$/LDC 2016-2017.py" />
         <option value="$PROJECT_DIR$/CL Prize Winner.py" />
@@ -114,8 +116,9 @@
         <option value="$PROJECT_DIR$/Teams' stats/Final/2017-2018 UCL Teams Final stats.csv" />
         <option value="$PROJECT_DIR$/Teams' stats/Quarter Final/2017-2018 UCL Teams Quarter Final stats.csv" />
         <option value="$PROJECT_DIR$/Teams' stats/Round of 16/2017-2018 UCL Teams 8th Final stats.csv" />
-        <option value="$PROJECT_DIR$/Teams' stats/Semi Final/2017-2018 UCL Teams Semi Final stats.csv" />
         <option value="$PROJECT_DIR$/Teams Database/team_stats_scraping.py" />
+        <option value="$PROJECT_DIR$/Teams' stats/Semi Final/2017-2018 UCL Teams Semi Final stats.csv" />
+        <option value="$PROJECT_DIR$/Teams Database/UCL Database.csv" />
       </list>
     </option>
   </component>
@@ -155,19 +158,13 @@
             <path>
               <item name="UCL Statistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="UCL Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Players Stats" type="462c0819:PsiDirectoryNode" />
+              <item name="Teams' stats" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UCL Statistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="UCL Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Players Stats" type="462c0819:PsiDirectoryNode" />
-              <item name="Best assists players" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UCL Statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCL Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Players Stats" type="462c0819:PsiDirectoryNode" />
-              <item name="Best Scorers" type="462c0819:PsiDirectoryNode" />
+              <item name="Teams' stats" type="462c0819:PsiDirectoryNode" />
+              <item name="Semi Final" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UCL Statistics" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +253,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Teams Database/team_stats_scraping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Teams Database/ucl_scraping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,8 +379,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13004847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12946783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -471,141 +469,126 @@
     <entry file="file://$PROJECT_DIR$/Teams' stats/quarterfinal_stats.py" />
     <entry file="file://$PROJECT_DIR$/Teams Database/teams_er.py" />
     <entry file="file://$PROJECT_DIR$/Teams' stats/groupstage_stats.py" />
-    <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2017-2018 UCL Teams Summary stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2016-2017 UCL Teams Summary stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2014-2015 UCL Teams Summary stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2015-2016 UCL Teams Summary stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Semi Final/2014-2015 UCL Teams Semi Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Semi Final/2016-2017 UCL Teams Semi Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Quarter Final/2013-2014 UCL Teams Quarter Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Quarter Final/2016-2017 UCL Teams Quarter Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Quarter Final/2015-2016 UCL Teams Quarter Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Round of 16/2015-2016 UCL Teams 8th Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Round of 16/2014-2015 UCL Teams 8th Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Round of 16/2013-2014 UCL Teams 8th Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2015-2016 UCL Teams ER stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2013-2014 UCL Teams ER stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/UCL Teams ER Stats.csv" />
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2014-2015 UCL Teams ER stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2013-2014 UCL Teams Summary stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2015-2016 UCL Teams Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2013-2014 UCL Teams Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../ML_lab2/xAPI-Edu-Data.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../ML_lab5/Bio_features_orthopedic.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teams Database/UCL Teams Stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Teams Database/UCL Teams Stats.csv" />
     <entry file="file://$PROJECT_DIR$/Teams Database/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -627,69 +610,91 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Final/2013-2014 UCL Teams Final stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret selection-end-line="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teams' stats/Final/2016-2017 UCL Teams Final stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams' stats/Final/2016-2017 UCL Teams Final stats.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teams' stats/Final/2017-2018 UCL Teams Final stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams' stats/Final/2017-2018 UCL Teams Final stats.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Quarter Final/2014-2015 UCL Teams Quarter Final stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Quarter Final/2017-2018 UCL Teams Quarter Final stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teams' stats/Round of 16/2017-2018 UCL Teams 8th Final stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams' stats/Round of 16/2017-2018 UCL Teams 8th Final stats.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="84" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teams' stats/Semi Final/2017-2018 UCL Teams Semi Final stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2016-2017 UCL Teams ER stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2017-2018 UCL Teams ER stats.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        <state relative-caret-position="-3" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams Database/Data/2016-2017 UCL Teams Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="115" selection-start-line="1" selection-start-column="115" selection-end-line="1" selection-end-column="115" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams Database/Data/2017-2018 UCL Teams Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-4" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_roadmap.txt">
@@ -699,52 +704,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2016-2017 UCL Teams ER stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2017-2018 UCL Teams Summary stats.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2017-2018 UCL Teams ER stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-3" />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Teams Database/Data/2016-2017 UCL Teams Stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Teams' stats/Semi Final/2017-2018 UCL Teams Semi Final stats.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="115" selection-start-line="1" selection-start-column="115" selection-end-line="1" selection-end-column="115" />
+        <state relative-caret-position="80">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teams Database/Data/2017-2018 UCL Teams Stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-4" />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Teams Database/UCL Database.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teams Database/team_stats_scraping.py">
+    <entry file="file://$PROJECT_DIR$/Teams Database/ucl_scraping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="325">
           <caret line="209" column="49" selection-start-line="209" selection-start-column="49" selection-end-line="209" selection-end-column="49" />
           <folding>
             <element signature="e#30#60#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams Database/UCL Database.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="640">
+          <caret line="147" column="7" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
   </component>
