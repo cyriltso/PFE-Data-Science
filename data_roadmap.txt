@@ -61,11 +61,11 @@ elimination rounds because it's completely different
 - all the data related to the teams got joined into a single DataFrame
 - cancelled the data acquisition related the group stages (not relevant actually)
 
-##### TO DO LIST ... #####
-
 - collecting the data for the whole year span (2013-2017)
     --> whoscored ok
     --> other website left to scrape ok
+
+##### TO DO LIST ... #####
 
 - need to add the 2017-2018 season to the database
 
