@@ -24,4 +24,5 @@ db4 = db.join(db2)
 
 print(db4)
 
-help(enumerate)
+print(db['C1']/db['C2'])
+

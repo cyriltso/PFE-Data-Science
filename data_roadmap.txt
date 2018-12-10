@@ -1,4 +1,4 @@
-Data will be acquired from 2013 to 2019 as it's hard to find beyond this year !
+Data will be acquired from 2012 to 2019 as it's hard to find beyond this year !
 
 -----------Teams (for each year) :----------
 
@@ -65,10 +65,18 @@ elimination rounds because it's completely different
     --> whoscored ok
     --> other website left to scrape ok
 
-##### TO DO LIST ... #####
+##### DONE THE 10/12/18 #####
 
 - need to add the 2017-2018 season to the database
 
-- players to add, group stages to add
+##### TO DO LIST ... #####
 
-- start cleaning, analyzing etc ....
+- players to add, group stages to add to the database
+- maybe try to scrape scores ??
+- manually build the databases of the season 2012-2013
+
+- start cleaning (homogenize the teams' name, remove the redundant data)
+- start analyzing with graphs, etc...
+- sorting correlations between meaningful data
+- starting the machine learning training
+- telling future scenarios for the 2018-2019 season

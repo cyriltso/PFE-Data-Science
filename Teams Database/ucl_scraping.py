@@ -169,6 +169,191 @@ def team_stats(url, path, year, round, xpath, file_path):
 
 #team_stats(url, path, year, round, xpath, file_path)
 
+### Acquiring data related to the best players from espn.com ###
+
+    ## Variables 1 ##
+
+url_s = 'http://www.espn.com/soccer/stats/_/league/UEFA.CHAMPIONS/season/2011'
+path_s = "/Users/cyriltso/Documents/UCL Statistics/Players Stats/Best Scorers"
+xpath_s = '//*[@id="fittPageContainer"]/div[3]/div[1]/div[1]/article/div/article/div/section/div/div[1]/section/section/' \
+        'table/tbody/tr/td/div/div/div[2]/table/tbody/tr/td/table'
+year_s = '2011/12'
+file_s = '2011-2012 UCL Best Scorers stats.csv'
+
+    ## Scraping Algorithm for the scorers ##
+
+def scorers(url, path, xpath, year, file):
+    chro_path = '/Users/cyriltso/Documents/UCL Statistics/chromedriver'
+    browser = webdriver.Chrome(os.path.join(os.getcwd(), chro_path))
+    browser.get(url)
+    time.sleep(4)
+
+    table = browser.find_element_by_xpath(xpath)
+    table_element = table.text.split('\n')
+
+    print(table_element)
+
+    """
+    season = browser.find_element_by_xpath(
+        '//*[@id="fittPageContainer"]/div[3]/div[1]/div[1]/article/div/article/div/div[3]/select[1]')
+    season_year = season.text.split('\n')
+    print(season_year)
+    """
+
+    players_specs = []
+
+    for line_rank, lines in enumerate(table_element):
+        if line_rank == 0:
+            pass
+        else:
+            players_specs.append(lines.split(' '))
+
+    print(players_specs)
+
+    for content in players_specs:
+        if len(content) == 8:
+            content.insert(0, ' ')
+        if len(content) == 7:
+            if content[0].isdigit():
+                content.insert(0, ' ')
+                content.insert(2, ' ')
+            else:
+                content.insert(0, ' ')
+                content.insert(1, ' ')
+                content[2] = ' '
+        if len(content) == 6:
+            if content[0].isdigit():
+                content.insert(0, ' ')
+                content.insert(2, ' ')
+                content.insert(6, ' ')
+            else:
+                content.insert(0, ' ')
+                content.insert(1, ' ')
+                content.insert(2, ' ')
+        if len(content) == 5:
+            content.insert(0, ' ')
+            content.insert(1, ' ')
+            content.insert(2, ' ')
+            content.insert(6, ' ')
+        if len(content) == 4:
+            content.insert(0, ' ')
+            content.insert(1, ' ')
+            content.insert(2, ' ')
+            content.insert(4, ' ')
+            content.insert(6, ' ')
+
+    print(players_specs)
+
+    # 0, 1, 2 --> RANK
+    # 3, 4 --> NAME
+    # 5, 6 --> TEAM
+    # 7 --> GAMES PLAYED
+    # 8 --> GOALS SCORED
+
+    db = pd.DataFrame({
+        'YEAR': year,
+        'CATEGORIES 1': 'Scorers',
+        'RANK_S': [i[1] for i in players_specs],
+        'NAME_S': [i[3] + ' ' + i[4] for i in players_specs],
+        'TEAM_S': [i[5] + ' ' + i[6] for i in players_specs],
+        'P_S': [i[7] for i in players_specs],
+        'G': [i[8] for i in players_specs]
+    })
+
+    db = db[[
+        'YEAR', 'CATEGORIES 1', 'RANK_S', 'NAME_S', 'TEAM_S', 'P_S', 'G'
+    ]]
+
+    print(db)
+
+    db.to_csv(os.path.join(path, file), index=False)
+
+#scorers(url_s, path_s, xpath_s, year_s, file_s)
+
+    ## Variables 2 ##
+
+url_a = 'http://www.espn.com/soccer/stats/_/league/UEFA.CHAMPIONS/season/2012'
+path_a = "/Users/cyriltso/Documents/UCL Statistics/Players Stats/Best assists players"
+xpath_a = '//*[@id="fittPageContainer"]/div[3]/div[1]/div[1]/article/div/article/div/section/div/div[2]/section/' \
+          'section/table'
+year_a = '2012/13'
+file_a = '2012-2013 UCL Best Passers stats.csv'
+
+    ## Scraping Algorithms for the passers ##
+
+def assists(url, path, xpath, year, file):
+    chro_path = '/Users/cyriltso/Documents/UCL Statistics/chromedriver'
+    browser = webdriver.Chrome(os.path.join(os.getcwd(), chro_path))
+    browser.get(url)
+    time.sleep(4)
+
+    table = browser.find_element_by_xpath(xpath)
+    table_element = table.text.split('\n')
+
+    print(table_element)
+
+    """
+    season = browser.find_element_by_xpath(
+        '//*[@id="fittPageContainer"]/div[3]/div[1]/div[1]/article/div/article/div/div[3]/select[1]')
+    season_year = season.text.split('\n')
+    print(season_year)
+    """
+
+    players_specs = []
+
+    for line_rank, lines in enumerate(table_element):
+        if line_rank == 0:
+            pass
+        else:
+            players_specs.append(lines.split(' '))
+
+    print(players_specs)
+
+    for content in players_specs:
+        if len(content) == 7:
+            pass
+        if len(content) == 6:
+            if content[0].isdigit():
+                content.insert(4, ' ')
+            else:
+                content.insert(0, ' ')
+        if len(content) == 5:
+            if content[0].isdigit():
+                content.insert(2, ' ')
+                content.insert(4, ' ')
+            elif content[2] in ('Juventus', 'Napoli', 'Arsenal', 'Barcelona', 'Benfica', 'Rostov', 'Besiktas'):
+                content.insert(0, ' ')
+                content.insert(4, ' ')
+            else:
+                content.insert(0, ' ')
+                content.insert(2, ' ')
+        if len(content) == 4:
+            content.insert(0, ' ')
+            content.insert(2, ' ')
+            content.insert(4, ' ')
+
+    print(players_specs)
+
+    db = pd.DataFrame({
+        'YEAR': year,
+        'CATEGORIES 2': 'Assists',
+        'RANK_A': [i[0] for i in players_specs],
+        'NAME_A': [i[1] + ' ' + i[2] for i in players_specs],
+        'TEAM_A': [i[3] + ' ' + i[4] for i in players_specs],
+        'P_A': [i[5] for i in players_specs],
+        'A': [i[6] for i in players_specs],
+    })
+
+    db = db[[
+        'YEAR', 'CATEGORIES 2', 'RANK_A', 'NAME_A', 'TEAM_A', 'P_A', 'A'
+    ]]
+
+    print(db)
+
+    db.to_csv(os.path.join(path, file), index=False)
+
+#assists(url_a, path_a, xpath_a, year_a, file_a)
+
 ### Concatenate and joining the different dataframes into a single one ###
 
     ## Variables ##
@@ -193,10 +378,10 @@ file_name_2 = "UCL Database.csv"
 
         # Joining #
 
-path_j = "/Users/cyriltso/Documents/UCL Statistics/Teams Database"
-file_join = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Elimination Round/2017-2018 UCL Teams ER stats.csv"
-ds = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Detailed stats/2017-2018 UCL Teams Summary stats.csv"
-name = "2017-2018 UCL Teams Stats.csv"
+path_j = "/Users/cyriltso/Documents/UCL Statistics/Players Database/Databases"
+file_join = "/Users/cyriltso/Documents/UCL Statistics/Players Stats/Best Scorers/2017-2018 UCL Best Scorers stats.csv"
+ds = "/Users/cyriltso/Documents/UCL Statistics/Players Stats/Best assists players/2017-2018 UCL Best Passers stats.csv"
+name = "2017-2018 UCL Players Stats.csv"
 
     ## Concatenating the DataFrames ##
 
@@ -212,19 +397,27 @@ def concat(path, p1, p2, p3, p4, p5, f_name):
 
     final_db.to_csv(os.path.join(path, f_name), index=False)
 
-concat(path_j, concat_1, concat_2, concat_3, concat_4, concat_5, file_name_2)
+#concat(path_j, concat_1, concat_2, concat_3, concat_4, concat_5, file_name_2)
 
     ## Joining the DataFrames ##
 
 def join(path, p1, p2, name):
+    """
     df1 = pd.read_csv(p1)
     df2 = pd.read_csv(p2, usecols=[
         'VIEW', 'RANK_S', 'TEAM_DS', 'GOALS', 'SHOTS', 'DISCIPLINE(Y,R/10)', 'POSSESSION', 'PASS%', 'AW', 'RATING'
     ])
 
     db = df1.join(df2)
+    """
+
+    df1 = pd.read_csv(p1, usecols=['YEAR', 'CATEGORIES 1', 'RANK_S', 'NAME_S', 'TEAM_S', 'P_S', 'G'])
+    df2 = pd.read_csv(p2, usecols=['CATEGORIES 2', 'RANK_A', 'NAME_A', 'TEAM_A', 'P_A', 'A'])
+
+    db = df1.join(df2)
+
     print(db)
 
     db.to_csv(os.path.join(path, name), index=False)
 
-#join(path_j, file_join, ds, name)
+join(path_j, file_join, ds, name)

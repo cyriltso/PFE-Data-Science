@@ -3,97 +3,98 @@ import pandas as pd
 import os
 import time
 
-url = 'https://footystats.org/europe/uefa-champions-league/2013-2014/overview'
-path = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Round of 16"
-year = '2013/14'
-round = '8th Finals'
-xpath = '//*[@id="content"]/div[3]/div[3]/div/div[9]/div[1]/table'
-file_path = '2013-2014 UCL Teams 8th Final stats.csv'
+url_s = 'https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/plus/1/galerie/0?saison_id=2017'
+path_s = "/Users/cyriltso/Documents/UCL Statistics/Players Stats"
+xpath_s = '//*[@id="yw1"]/table'
+year_s = '2011/12'
+file_s = '2011-2012 UCL Best Scorers stats.csv'
 
-    ## Scraping Algorithm ##
-
-def team_stats(url, path, year, round, xpath, file_path):
+def scorers(url, path, xpath, year, file):
     chro_path = '/Users/cyriltso/Documents/UCL Statistics/chromedriver'
     browser = webdriver.Chrome(os.path.join(os.getcwd(), chro_path))
-
     browser.get(url)
     time.sleep(4)
+
     table = browser.find_element_by_xpath(xpath)
     table_element = table.text.split('\n')
 
     print(table_element)
 
     """
-    season = browser.find_element_by_xpath('//*[@id="teamSummary"]/div/div[4]/div[2]')
+    season = browser.find_element_by_xpath(
+        '//*[@id="fittPageContainer"]/div[3]/div[1]/div[1]/article/div/article/div/div[3]/select[1]')
     season_year = season.text.split('\n')
     print(season_year)
     """
 
-    # columns' names ---> 0 to 26
-    # ranks ---> 27, 30, 33
-    # teams ---> 27, 30, 33
-    # stats ---> all cases
+    """
+    players_specs = []
 
-    team_all = []
-    team_stat_1 = []
-    team_stat_2 = []
-
-    for line_num, line_content in enumerate(table_element):
-        if 0 <= line_num <= 26:
+    for line_rank, lines in enumerate(table_element):
+        if line_rank == 0:
             pass
         else:
-            if line_num % 3 == 0:
-                team_all.append(line_content.split(' '))
-            if line_num % 3 == 1:
-                team_stat_1.append(line_content)
-            if line_num % 3 == 2:
-                team_stat_2.append(line_content.split(' '))
+            players_specs.append(lines.split(' '))
 
-    print(team_all)
-    print(team_stat_1)
-    print(team_stat_2)
+    print(players_specs)
 
-    for content in team_all:
-        if len(content) == 9:
+    for content in players_specs:
+        if len(content) == 8:
+            content.insert(0, ' ')
+        if len(content) == 7:
+            if content[0].isdigit():
+                content.insert(0, ' ')
+                content.insert(2, ' ')
+            else:
+                content.insert(0, ' ')
+                content.insert(1, ' ')
+                content[2] = ' '
+        if len(content) == 6:
+            if content[0].isdigit():
+                content.insert(0, ' ')
+                content.insert(2, ' ')
+                content.insert(6, ' ')
+            else:
+                content.insert(0, ' ')
+                content.insert(1, ' ')
+                content.insert(2, ' ')
+        if len(content) == 5:
+            content.insert(0, ' ')
+            content.insert(1, ' ')
             content.insert(2, ' ')
-            content.insert(3, ' ')
+            content.insert(6, ' ')
+        if len(content) == 4:
+            content.insert(0, ' ')
+            content.insert(1, ' ')
+            content.insert(2, ' ')
             content.insert(4, ' ')
-        elif len(content) == 10:
-            content.insert(3, ' ')
-            content.insert(4, ' ')
-        elif len(content) == 11:
-            content.insert(4, ' ')
+            content.insert(6, ' ')
 
-    print(team_all)
+    print(players_specs)
+
+    # 0, 1, 2 --> RANK
+    # 3, 4 --> NAME
+    # 5, 6 --> TEAM
+    # 7 --> GAMES PLAYED
+    # 8 --> GOALS SCORED
 
     db = pd.DataFrame({
         'YEAR': year,
-        'ROUND': round,
-        'RANK': [i[0] for i in team_all],
-        'TEAM': [i[1] + ' ' + i[2] + ' ' + i[3] + ' ' + i[4] for i in team_all],
-        'MP': [i[5] for i in team_all],
-        'W': [i[6] for i in team_all],
-        'D': [i[7] for i in team_all],
-        'L': [i[8] for i in team_all],
-        'GF': [i[9] for i in team_all],
-        'GA': [i[10] for i in team_all],
-        'GD': [i[11] for i in team_all],
-        'Last 5': team_stat_1,
-        'CS': [i[1] for i in team_stat_2],
-        'BTTS': [i[2] for i in team_stat_2],
-        'FTS': [i[3] for i in team_stat_2],
-        'Over 1.5+': [i[4] for i in team_stat_2],
-        'Over 2.5+': [i[5] for i in team_stat_2],
-        'AVG': [i[6] for i in team_stat_2]
+        'CATEGORIES 1': 'Scorers',
+        'RANK_S': [i[1] for i in players_specs],
+        'NAME_S': [i[3] + ' ' + i[4] for i in players_specs],
+        'TEAM_S': [i[5] + ' ' + i[6] for i in players_specs],
+        'P_S': [i[7] for i in players_specs],
+        'G': [i[8] for i in players_specs]
     })
 
     db = db[[
-        'YEAR', 'ROUND', 'RANK', 'TEAM', 'MP', 'W', 'D', 'L', 'GF', 'GA', 'GD', 'Last 5',
-        'CS', 'BTTS', 'FTS', 'Over 1.5+', 'Over 2.5+', 'AVG'
+        'YEAR', 'CATEGORIES 1', 'RANK_S', 'NAME_S', 'TEAM_S', 'P_S', 'G'
     ]]
 
     print(db)
 
-    db.to_csv(os.path.join(path, file_path), index=False)
+    db.to_csv(os.path.join(path, file), index=False)
+"""
 
-#team_stats(url, path, year, round, xpath, file_path)
+scorers(url_s, path_s, xpath_s, year_s, file_s)
