@@ -36,3 +36,15 @@ and the last two to the red cards
 - PASS% : Pass accuracy per team for the whole competition
 - AW : Aerial duals won per game
 - RATING : Power Ranking of the team during the competition
+- CATEGORIES 1 : Players' scoring section
+- RANK_SC : Scorers' rank
+- NAME_SC : Scorers' name
+- TEAM_SC : Scorers' team
+- P_SC : Numbers of games played by the scorers
+- G : Numbers of goals
+- CATEGORIES 2 : Players' assists section
+- RANK_A : Passers' rank
+- NAME_A : Passers' names
+- TEAM_A : Passers' team
+- P_A : Numbers of games played by the passers
+- A : Numbers of assists

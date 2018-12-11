@@ -1,4 +1,5 @@
 import pandas as pd
+from math import sqrt
 
 list = [1, 2, 3]
 list2 = [4, 5, 6]
@@ -25,4 +26,10 @@ db4 = db.join(db2)
 print(db4)
 
 print(db['C1']/db['C2'])
+
+print(sqrt(10))
+
+print(5*sqrt(40))
+
+print((50+45+40+35+30+25+20+15+10+5)*3)
 

@@ -1,4 +1,4 @@
-YEAR,CATEGORIES 1,RANK_S,NAME_S,TEAM_S,P_S,G,CATEGORIES 2,RANK_A,NAME_A,TEAM_A,P_A,A
+YEAR,CATEGORIES 1,RANK_SC,NAME_SC,TEAM_SC,P_SC,G,CATEGORIES 2,RANK_A,NAME_A,TEAM_A,P_A,A
 2014/15,Scorers,1,Lionel Messi,Barcelona  ,13,10,Assists,1,Andrés Iniesta,Barcelona  ,11,5.0
 2014/15,Scorers, ,Neymar  ,Barcelona  ,12,10,Assists,2,Lionel Messi,Barcelona  ,13,4.0
 2014/15,Scorers, ,Cristiano Ronaldo,Real Madrid,12,10,Assists, ,Dani Alves,Barcelona  ,11,4.0

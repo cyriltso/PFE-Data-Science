@@ -69,13 +69,14 @@ elimination rounds because it's completely different
 
 - need to add the 2017-2018 season to the database
 
-##### TO DO LIST ... #####
+##### DONE THE 11/12/18 #####
 
 - players to add, group stages to add to the database
-- maybe try to scrape scores ??
 - manually build the databases of the season 2012-2013
-
 - start cleaning (homogenize the teams' name, remove the redundant data)
+
+##### TO DO LIST ... #####
+
 - start analyzing with graphs, etc...
 - sorting correlations between meaningful data
 - starting the machine learning training
