@@ -5,6 +5,7 @@
 This section of the repo will contain:
 - The databases of the teams in the UCL from 2013
 to 2019.
+- The Scraping Algorithm.
 
 You can find the databases in two version:
 - Separately (the database of each year) inside of the folders
