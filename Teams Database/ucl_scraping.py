@@ -9,9 +9,9 @@ import time
 
     ## Variables ##
 
-url = 'https://www.whoscored.com/Regions/250/Tournaments/12/Seasons/3416/Stages/7228/TeamStatistics/Europe-UEFA-Champions-League-2012-2013'
-year = '2012/13'
-name = '2012-2013 UCL Teams Summary stats.csv'
+url = 'https://www.whoscored.com/Regions/250/Tournaments/12/Seasons/2944/Stages/6021/TeamStatistics/Europe-UEFA-Champions-League-2011-2012'
+year = '2011/12'
+name = '2011-2012 UCL Teams Summary stats.csv'
 
     ## Scraping Algorithm ##
 
@@ -369,39 +369,41 @@ file_name = "2017-2018 UCL Teams ER stats.csv"
 
         # Second Concatening #
 
-concat_0 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2012-2013 UCL Stats.csv"
-concat_1 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2013-2014 UCL Stats.csv"
+concat_0 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2011-2012 UCL Stats.csv"
+concat_1 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/UCL Database.csv"
 concat_2 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2014-2015 UCL Stats.csv"
 concat_3 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2015-2016 UCL Stats.csv"
 concat_4 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2016-2017 UCL Stats.csv"
 concat_5 = "/Users/cyriltso/Documents/UCL Statistics/Teams Database/Data/2017-2018 UCL Stats.csv"
 
-file_name_2 = "UCL Database.csv"
+file_name_2 = "UCL Database_v2.csv"
 
         # Joining #
 
 path_j = "/Users/cyriltso/Documents/UCL Statistics/Teams Database"
-file_join = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Elimination Round/2017-2018 UCL Teams ER stats.csv"
-ds = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Detailed stats/2017-2018 UCL Teams Summary stats.csv"
-p_join = "/Users/cyriltso/Documents/UCL Statistics/Players Database/Databases/2017-2018 UCL Players Stats.csv"
-name = "2017-2018 UCL Stats.csv"
+file_join = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Elimination Round/2012-2013 UCL Teams ER stats.csv"
+ds = "/Users/cyriltso/Documents/UCL Statistics/Teams' stats/Detailed stats/2012-2013 UCL Teams Summary stats.csv"
+p_join = "/Users/cyriltso/Documents/UCL Statistics/Players Database/Databases/2012-2013 UCL Players Stats.csv"
+name = "2012-2013 UCL Stats.csv"
 
     ## Concatenating the DataFrames ##
 
-def concat(path, p0, p1, p2, p3, p4, p5, f_name):
+def concat(path, p0, p1, f_name):
     df0 = pd.read_csv(p0)
     df1 = pd.read_csv(p1)
+    """
     df2 = pd.read_csv(p2)
     df3 = pd.read_csv(p3)
     df4 = pd.read_csv(p4)
     df5 = pd.read_csv(p5)
+    """
 
-    final_db = pd.concat([df0, df1, df2, df3, df4, df5], ignore_index=True)
+    final_db = pd.concat([df0, df1], ignore_index=True)
     print(final_db)
 
     final_db.to_csv(os.path.join(path, f_name), index=False)
 
-concat(path_j, concat_0, concat_1, concat_2, concat_3, concat_4, concat_5, file_name_2)
+concat(path_j, concat_0, concat_1, file_name_2)
 
     ## Joining the DataFrames ##
 

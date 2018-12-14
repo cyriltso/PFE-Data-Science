@@ -1,35 +1,24 @@
 import pandas as pd
+import numpy as np
 from math import sqrt
 
 list = [1, 2, 3]
-list2 = [4, 5, 6]
-list3 = [1, 1, 1, 1]
-list4 = [2, 2, 2, 2]
+list2 = [5, 4, 6]
+list3 = [7, 17, 13]
 
 db = pd.DataFrame({
     'C1': list,
-    'C2': list2
+    'C2': list2,
+    'C3': list3
 })
 
-db2 = pd.DataFrame({
-    'C3': list3,
-    'C4': list4,
+df = pd.DataFrame({
+    'col1' : ['A', 'A', 'B', np.nan, 'D', 'C'],
+    'col2' : [2, 2, 9, 8, 7, 4],
+    'col3': [1, 1, 9, 4, 2, 3],
 })
 
-#db3 = pd.concat([db,db2], ignore_index = True)
+print(df)
 
-print(db)
-print(db2)
-
-db4 = db.join(db2)
-
-print(db4)
-
-print(db['C1']/db['C2'])
-
-print(sqrt(10))
-
-print(5*sqrt(40))
-
-print((50+45+40+35+30+25+20+15+10+5)*3)
-
+df3 = df.rename_axis('aaa', axis='rows')
+print(df3)

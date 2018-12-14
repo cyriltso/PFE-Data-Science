@@ -1,4 +1,4 @@
-Data will be acquired from 2012 to 2019 as it's hard to find beyond this year !
+Data will be acquired from 2011 to 2019 as it's hard to find beyond this year !
 
 -----------Teams (for each year) :----------
 
@@ -77,7 +77,7 @@ elimination rounds because it's completely different
 
 ##### TO DO LIST ... #####
 
-- start analyzing with graphs, etc...
 - sorting correlations between meaningful data
+- start analyzing with graphs, etc...
 - starting the machine learning training
 - telling future scenarios for the 2018-2019 season

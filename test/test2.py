@@ -3,98 +3,60 @@ import pandas as pd
 import os
 import time
 
-url_s = 'https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/plus/1/galerie/0?saison_id=2017'
-path_s = "/Users/cyriltso/Documents/UCL Statistics/Players Stats"
-xpath_s = '//*[@id="yw1"]/table'
-year_s = '2011/12'
-file_s = '2011-2012 UCL Best Scorers stats.csv'
+chro_path = '/Users/cyriltso/Documents/NBA Statistics/chromedriver'
 
-def scorers(url, path, xpath, year, file):
-    chro_path = '/Users/cyriltso/Documents/UCL Statistics/chromedriver'
-    browser = webdriver.Chrome(os.path.join(os.getcwd(), chro_path))
-    browser.get(url)
-    time.sleep(4)
+browser = webdriver.Chrome(os.path.join(os.getcwd(), chro_path))
 
-    table = browser.find_element_by_xpath(xpath)
-    table_element = table.text.split('\n')
+path = "/Users/cyriltso/Documents/UCL Statistics/test"
 
-    print(table_element)
+url = 'https://www.worldfootball.net/assists/champions-league-2011-2012/'
+browser.get(url)
 
-    """
-    season = browser.find_element_by_xpath(
-        '//*[@id="fittPageContainer"]/div[3]/div[1]/div[1]/article/div/article/div/div[3]/select[1]')
-    season_year = season.text.split('\n')
-    print(season_year)
-    """
+table = browser.find_element_by_xpath('//*[@id="site"]/div[3]/div[1]/div/div[3]/div/table')
+time.sleep(4)
+table_element = table.text.split('\n')
+print(table_element)
 
-    """
-    players_specs = []
+players_list = []
 
-    for line_rank, lines in enumerate(table_element):
-        if line_rank == 0:
-            pass
-        else:
-            players_specs.append(lines.split(' '))
+for line_rank, lines in enumerate(table_element):
+    if line_rank == 0:
+        pass
+    else:
+        players_list.append(lines.split(' '))
 
-    print(players_specs)
+print(players_list)
 
-    for content in players_specs:
-        if len(content) == 8:
-            content.insert(0, ' ')
-        if len(content) == 7:
-            if content[0].isdigit():
-                content.insert(0, ' ')
-                content.insert(2, ' ')
-            else:
-                content.insert(0, ' ')
-                content.insert(1, ' ')
-                content[2] = ' '
-        if len(content) == 6:
-            if content[0].isdigit():
-                content.insert(0, ' ')
-                content.insert(2, ' ')
-                content.insert(6, ' ')
-            else:
-                content.insert(0, ' ')
-                content.insert(1, ' ')
-                content.insert(2, ' ')
-        if len(content) == 5:
-            content.insert(0, ' ')
-            content.insert(1, ' ')
-            content.insert(2, ' ')
-            content.insert(6, ' ')
-        if len(content) == 4:
-            content.insert(0, ' ')
-            content.insert(1, ' ')
-            content.insert(2, ' ')
+for content in players_list:
+    if len(content) == 8:
+        pass
+    elif len(content) == 7:
+        if content[0].isdigit():
             content.insert(4, ' ')
-            content.insert(6, ' ')
+        else:
+            content.insert(1, ' ')
+    elif len(content) == 6:
+        content.insert(0, ' ')
+        content.insert(4, ' ')
+    elif len(content) == 5:
+        content.insert(0, ' ')
+        content.insert(2, ' ')
+        content.insert(4, ' ')
 
-    print(players_specs)
+print(players_list)
 
-    # 0, 1, 2 --> RANK
-    # 3, 4 --> NAME
-    # 5, 6 --> TEAM
-    # 7 --> GAMES PLAYED
-    # 8 --> GOALS SCORED
+df = pd.DataFrame({
+    'ASSISTS': 'Assists',
+    'RANK_A': [i[0] for i in players_list],
+    'NAME_A': [i[2] + ' ' + i[3] for i in players_list],
+    'TEAM_A': [i[5] + ' ' + i[6] for i in players_list],
+    'A': [i[7] for i in players_list]
+})
 
-    db = pd.DataFrame({
-        'YEAR': year,
-        'CATEGORIES 1': 'Scorers',
-        'RANK_S': [i[1] for i in players_specs],
-        'NAME_S': [i[3] + ' ' + i[4] for i in players_specs],
-        'TEAM_S': [i[5] + ' ' + i[6] for i in players_specs],
-        'P_S': [i[7] for i in players_specs],
-        'G': [i[8] for i in players_specs]
-    })
+df = df[[
+    'ASSISTS', 'RANK_A', 'NAME_A', 'TEAM_A', 'A'
+]]
 
-    db = db[[
-        'YEAR', 'CATEGORIES 1', 'RANK_S', 'NAME_S', 'TEAM_S', 'P_S', 'G'
-    ]]
+print(df)
 
-    print(db)
-
-    db.to_csv(os.path.join(path, file), index=False)
-"""
-
-scorers(url_s, path_s, xpath_s, year_s, file_s)
+df.to_csv(os.path.join(path, 'test2.csv'), index=False)
