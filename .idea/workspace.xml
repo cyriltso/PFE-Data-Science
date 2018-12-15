@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a91e756-8713-4cfa-bc22-e8ddd52f2d74" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Teams Database/UCL Dataset_v2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams Database/UCL Database.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams Database/ucl_scraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teams Database/ucl_scraping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teams Database/UCL Database_v2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teams Database/ucl_scraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/ucl_scraping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_roadmap.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_roadmap.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +18,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Teams Database/ucl_scraping.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="378" column="30" selection-start-line="378" selection-start-column="30" selection-end-line="378" selection-end-column="30" />
-              <folding>
-                <element signature="e#30#60#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/UCL Dataset.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="620">
+              <caret line="31" column="204" lean-forward="true" selection-start-line="31" selection-start-column="204" selection-end-line="31" selection-end-column="204" />
             </state>
           </provider>
         </entry>
@@ -32,8 +32,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_roadmap.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
-              <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+            <state relative-caret-position="853">
+              <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ucl_cleaning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1160">
+              <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+              <folding>
+                <element signature="e#29#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,13 +61,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cristiano</find>
-      <find>edin</find>
-      <find>messi</find>
-      <find>wikitable</find>
-      <find>nation</find>
       <find>alex</find>
       <find>Ángel</find>
+      <find>Bayern München</find>
+      <find>Bayern Munich</find>
+      <find>Juventus</find>
+      <find>Paris Saint-Germain FC</find>
+      <find>Paris Saint-Germain</find>
+      <find>SL</find>
+      <find>SL Benfica</find>
+      <find>Gala</find>
+      <find>Sevill</find>
+      <find>olympia</find>
+      <find>Napoli</find>
+      <find>Totten</find>
+      <find>valencia</find>
+      <find>celtic</find>
+      <find>liverpool</find>
+      <find>braga</find>
+      <find>cluj</find>
+      <find>feyenoord</find>
+      <find>leicei</find>
+      <find>genk</find>
+      <find>gent</find>
+      <find>wolfs</find>
+      <find>mosc</find>
+      <find>apoel</find>
+      <find>12</find>
+      <find>Beşiktaş</find>
+      <find>manchester city</find>
+      <find>NaN</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,11 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Players Stats/scorers_stats.py" />
-        <option value="$PROJECT_DIR$/Players Database/players.py" />
-        <option value="$PROJECT_DIR$/Teams' stats/detailed_stats.py" />
-        <option value="$PROJECT_DIR$/Teams' stats/team_stats.py" />
-        <option value="$PROJECT_DIR$/Teams Database/team_stats.py" />
         <option value="$PROJECT_DIR$/Teams' stats/Final/2016-2017 UCL Teams Final stats.csv" />
         <option value="$PROJECT_DIR$/Teams' stats/Final/2017-2018 UCL Teams Final stats.csv" />
         <option value="$PROJECT_DIR$/Teams' stats/Quarter Final/2017-2018 UCL Teams Quarter Final stats.csv" />
@@ -105,7 +135,6 @@
         <option value="$PROJECT_DIR$/Teams' stats/README.md" />
         <option value="$PROJECT_DIR$/Teams Database/Data/2017-2018 UCL Stats.csv" />
         <option value="$PROJECT_DIR$/Teams Database/UCL Database.csv" />
-        <option value="$PROJECT_DIR$/test/test.py" />
         <option value="$PROJECT_DIR$/test/test2.py" />
         <option value="$PROJECT_DIR$/Players Stats/Best assists players/2011-2012 UCL Best Passers stats.csv" />
         <option value="$PROJECT_DIR$/Players Stats/Best Scorers/2011-2012 UCL Best Scorers stats.csv" />
@@ -113,12 +142,18 @@
         <option value="$PROJECT_DIR$/Teams' stats/Elimination Round/2011-2012 UCL Teams ER stats.csv" />
         <option value="$PROJECT_DIR$/Teams' stats/Detailed stats/2011-2012 UCL Teams Summary stats.csv" />
         <option value="$PROJECT_DIR$/Teams Database/ucl_scraping.py" />
+        <option value="$PROJECT_DIR$/ucl_scraping.py" />
+        <option value="$PROJECT_DIR$/UCL Dataset.csv" />
+        <option value="$PROJECT_DIR$/UCL Dataset_v2.csv" />
+        <option value="$PROJECT_DIR$/Teams Database/UCL Dataset_v2.csv" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/ucl_cleaning.py" />
         <option value="$PROJECT_DIR$/data_roadmap.txt" />
         <option value="$PROJECT_DIR$/data_roadmap.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="1280" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -158,12 +193,6 @@
               <item name="UCL Statistics" type="462c0819:PsiDirectoryNode" />
               <item name="Teams Database" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UCL Statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCL Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Teams Database" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -181,18 +210,18 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Teams Database" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Teams' stats" />
+      <recent name="$PROJECT_DIR$/Teams' stats/Detailed stats/Overall" />
+      <recent name="$PROJECT_DIR$/Alltime stats" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Teams' stats/Elimination Round" />
       <recent name="$PROJECT_DIR$/Teams' stats/Semi Final" />
       <recent name="$PROJECT_DIR$/Teams' stats/Round of 16" />
       <recent name="$PROJECT_DIR$/Teams' stats/Quarter Final" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Teams' stats" />
-      <recent name="$PROJECT_DIR$/Teams Database" />
-      <recent name="$PROJECT_DIR$/Teams' stats/Detailed stats/Overall" />
-      <recent name="$PROJECT_DIR$/Alltime stats" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ucl_scraping">
+  <component name="RunManager" selected="Python.ucl_cleaning">
     <configuration name="LDC 2016-2017" type="PythonConfigurationType" factoryName="Python">
       <module name="Web Scraping Part" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,27 +271,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucl_scraping.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scorers_stats (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Web Scraping Part" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Players Stats" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Players Stats/scorers_stats.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,6 +321,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ucl_cleaning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Web Scraping Part" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucl_cleaning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ucl_scraping" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Web Scraping Part" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,7 +354,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Teams Database/ucl_scraping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucl_scraping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,18 +366,18 @@
     <list>
       <item itemvalue="Python.LDC 2016-2017" />
       <item itemvalue="Python.detailed_stats" />
-      <item itemvalue="Python.scorers_stats (1)" />
       <item itemvalue="Python.test2" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.ucl_scraping" />
+      <item itemvalue="Python.ucl_cleaning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ucl_cleaning" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.ucl_scraping" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.detailed_stats" />
-        <item itemvalue="Python.scorers_stats (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -366,14 +395,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="1280" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10383387" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.10063898" />
+      <window_info id="Structure" order="1" sideWeight="0.5009901" side_tool="true" weight="0.10063898" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32739726" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32673267" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3990099" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -385,7 +413,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.4084132" />
+      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.45793396" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08804523" />
@@ -411,36 +439,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Players Stats/Best assists players/2016-2017 UCL Best Passers stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Players Stats/Best Scorers/2013-2014 UCL Best Scorers stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="877">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Players Stats/Best Scorers/2014-2015 UCL Best Scorers stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="892">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Players Stats/Best Scorers/2015-2016 UCL Best Scorers stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
@@ -646,16 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2011-2012 UCL Best Scorers stats.csv" />
     <entry file="file://$PROJECT_DIR$/test/test.csv">
       <provider editor-type-id="csv-table-editor">
@@ -663,16 +651,7 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Teams Database/UCL Database.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="205" selection-start-column="162" selection-end-column="205" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams Database/UCL Database.csv" />
     <entry file="file://$PROJECT_DIR$/Players Stats/Best assists players/2012-2013 UCL Best Passers stats.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
@@ -845,26 +824,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Teams Database/UCL Database_v2.csv">
+    <entry file="file://$PROJECT_DIR$/test.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="120" lean-forward="true" selection-start-line="1" selection-start-column="120" selection-end-line="1" selection-end-column="120" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Teams Database/ucl_scraping.py">
+    <entry file="file://$PROJECT_DIR$/ucl_scraping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="378" column="30" selection-start-line="378" selection-start-column="30" selection-end-line="378" selection-end-column="30" />
+        <state relative-caret-position="8500">
+          <caret line="425" column="4" lean-forward="true" selection-start-line="425" selection-start-column="4" selection-end-line="425" selection-end-column="52" />
           <folding>
             <element signature="e#30#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Teams Database/UCL Dataset_v2.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1062">
+          <caret line="210" column="207" lean-forward="true" selection-start-line="210" selection-start-column="207" selection-end-line="210" selection-end-column="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UCL Dataset.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="204" lean-forward="true" selection-start-line="31" selection-start-column="204" selection-end-line="31" selection-end-column="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucl_cleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+          <folding>
+            <element signature="e#29#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_roadmap.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+        <state relative-caret-position="853">
+          <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
         </state>
       </provider>
     </entry>

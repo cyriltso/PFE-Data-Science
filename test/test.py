@@ -18,7 +18,14 @@ df = pd.DataFrame({
     'col3': [1, 1, 9, 4, 2, 3],
 })
 
-print(df)
+#print(df)
 
 df3 = df.rename_axis('aaa', axis='rows')
-print(df3)
+#print(df3)
+
+db['C1'] = db['C1'].astype('float64')
+print(db['C1'])
+
+print(db)
+
+
