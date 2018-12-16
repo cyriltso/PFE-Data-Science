@@ -39,8 +39,15 @@ cr = dataset.rename(columns = {
     "RANK_A": "RANK A",
     "NAME_A": "NAME A",
     "TEAM_A": "TEAM A",
-    "P_A": "MP A"
+    "P_A": "MP A",
+    "CS": "CS%",
+    "BTTS": "BTTS%",
+    "FTS": "FTS%",
+    "Over 1.5+": "Over 1.5+ %",
+    "Over 2.5+": "Over 2.5+ %"
 })
+
+print(cr.shape)
 
 ### Homogenizing the teams' names ###
 
@@ -51,7 +58,13 @@ replace = cr.replace(
      'Napoli', 'Tottenham', 'Roma', 'Valencia', 'Liverpool', 'FC FCSB', 'CFR Cluj', 'Inter', 'Feyenoord',
      'Leicester', 'Gent', 'Genk', 'Braga', 'Wolfsburg', 'St. Petersburg', 'Barcelona', ' Shakhtar Donetsk',
      ' Paris Saint-Germain', 'Tottenham Hotspur', 'Olympique Lyon', 'Olympique Marseille', 'Arsenal FC',
-     'CSKA Moskva', ' Zenit St Petersburg', ' Atletico Madrid', 'APOEL Nikosia', ' Valencia', 'Manchester City '],
+     'CSKA Moskva', ' Zenit St Petersburg', ' Atletico Madrid', 'APOEL Nikosia', ' Valencia', 'Manchester City ', '0%',
+     '1%', '2%', '3%', '4%', '5%', '6%', '7%', '8%', '9%', '10%', '11%', '12%', '13%', '14%', '15%', '16%', '17%',
+     '18%', '19%', '20%', '21%', '22%', '23%', '24%', '25%', '26%', '27%', '28%', '29%', '30%', '31%', '32%', '33%', '34%',
+     '35%', '36%', '37%', '38%', '39%', '40%', '41%', '42%', '43%', '44%', '45%', '46%', '47%', '48%', '49%', '50%', '51%',
+     '52%', '53%', '54%', '55%', '56%', '57%', '58%', '59%', '60%', '61%', '62%', '63%', '64%', '65%', '66%', '67%', '68%',
+     '69%', '70%', '71%', '72%', '73%', '74%', '75%', '76%', '77%', '78%', '79%', '80%', '81%', '82%', '83%', '84%', '85%',
+     '86%', '87%', '88%', '89%', '90%', '91%', '92%', '93%', '94%', '95%', '96%', '97%', '98%', '99%', '100%'],
 
     ['Bayern Munich', 'Juventus FC', 'Paris Saint-Germain', 'Manchester United', 'Real Madrid',
      'SL Benfica', 'Shakhtar Donetsk', 'FC Basel', 'AS Monaco', 'Zenit St Petersburg', 'Chelsea',
@@ -60,7 +73,13 @@ replace = cr.replace(
      'Steaua Bucarest', 'CFR Cluj-Napoca', 'Inter Milan', 'Feyenoord Rotterdam', 'Leicester City',
      'KAA Gent', 'KRC Genk', 'Sporting Braga', 'VfL Wolfsburg', 'Zenit St Petersburg', 'FC Barcelona',
      'Shakhtar Donetsk', 'Paris Saint-Germain', 'Tottenham Hotspur FC', 'Lyon', 'Marseille', 'Arsenal',
-     'CSKA Moscow', 'Zenit St Petersburg', 'Atletico Madrid', 'APOEL Nicosie', 'Valencia CF', 'Manchester City']
+     'CSKA Moscow', 'Zenit St Petersburg', 'Atletico Madrid', 'APOEL Nicosie', 'Valencia CF', 'Manchester City','0',
+     '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17',
+     '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33',
+     '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50',
+     '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67',
+     '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84',
+     '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
 )
 
 ### Checking anomalies inside of the dataset ###
@@ -113,17 +132,19 @@ remove = replace.drop(columns=['AW'])
 
 ### Switching the index on years and rounds to make frames slicing easier for the analysis ###
 
-switch_index = remove.set_index(['YEAR'])
-#print(switch_index)
+#switch_index = remove.set_index('YEAR')
 
-test = switch_index.loc[['2013/14'], 'CATEGORIES 1':'RATING']
+#switch_index['YEAR'] = remove.index
+#print(remove)
+
+#test = switch_index.loc[['2013/14'], 'CATEGORIES 1':'RATING']
 #print(test)
 
 ### Changing the contents of an entire column ###
 
-content_sw = switch_index.replace(['Scorers', 'Assists'], ['SCORERS', 'ASSISTS'])
+content_sw = remove.replace(['Scorers', 'Assists'], ['SCORERS', 'ASSISTS'])
 
-test_2 = content_sw.loc['2011/12', ['CATEGORIES 2','CATEGORIES 3']]
+#test_2 = content_sw.loc['2011/12', ['CATEGORIES 2','CATEGORIES 3']]
 #print(test_2)
 
 ### Checking the type of a column in order to avoid inconsistency ###
@@ -155,6 +176,11 @@ def change_type_int(column):
 change_type_int('GOALS')
 change_type_int('A')
 change_type_int('DISCIPLINE(Y,R)')
+change_type_int('CS%')
+change_type_int('BTTS%')
+change_type_int('FTS%')
+change_type_int('Over 1.5+ %')
+change_type_int('Over 2.5+ %')
 
 """
 content_sw['A'] = content_sw['A'].astype('int64')
@@ -184,14 +210,15 @@ content_sw['RED CARD'] = (content_sw['DISCIPLINE(Y,R)']%10)
 ### Reogarnizing the columns order of the DataFrame ###
 
 content_sw = content_sw[[
-    'ROUND', 'RANK ER', 'TEAM ER', 'MP', 'W', 'D', 'L', 'GF', 'GA', 'GD', 'Last 5',
-    'CS', 'BTTS', 'FTS', 'Over 1.5+', 'Over 2.5+', 'AVG', 'CATEGORIES 1', 'RANK DS',
+    'YEAR', 'ROUND', 'RANK ER', 'TEAM ER', 'MP', 'W', 'D', 'L', 'GF', 'GA', 'GD', 'Last 5',
+    'CS%', 'BTTS%', 'FTS%', 'Over 1.5+ %', 'Over 2.5+ %', 'AVG', 'CATEGORIES 1', 'RANK DS',
     'TEAM DS', 'GOALS', 'SHOTS', 'YELLOW CARD', 'RED CARD', 'POSSESSION', 'PASS%', 'RATING',
     'CATEGORIES 2', 'RANK SC', 'NAME SC', 'TEAM SC', 'MP SC', 'G', 'GOALS RATIO',
     'CATEGORIES 3', 'RANK A', 'NAME A', 'TEAM A', 'MP A', 'A', 'ASSISTS RATIO'
 ]]
 
-print(content_sw)
+#print(content_sw)
+
 
 ### Cleaned DataFrame to save ###
 

@@ -81,9 +81,14 @@ elimination rounds because it's completely different
 - cleaning done
 - starting exploring and analyzing the data
 
-##### LEFT TO DO ... #####
+##### DONE THE 16-17/12/18 #####
 
 - sorting correlations between meaningful data
 - start analyzing with graphs, etc...
+
+---> DONE AT 70%
+
+##### LEFT TO DO ... #####
+
 - starting the machine learning training
 - telling future scenarios for the 2018-2019 season
