@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a91e756-8713-4cfa-bc22-e8ddd52f2d74" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams Database/UCL Dataset_v2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Teams Database/UCL Dataset_v2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UCL Dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/UCL Dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ucl_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ucl_cleaning.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,24 +13,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UCL Dataset.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
+        <entry file="file://$PROJECT_DIR$/ucl_analysis_visualization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6561">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+              <folding>
+                <element signature="e#29#48#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-10">
-              <caret line="57" column="73" lean-forward="true" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ucl_cleaning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1163">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#29#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ucl_analysis_visualization.py">
+        <entry file="file://$PROJECT_DIR$/ucl_scraping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7740">
-              <caret line="387" column="11" lean-forward="true" selection-start-line="387" selection-start-column="11" selection-end-line="387" selection-end-column="11" />
+            <state relative-caret-position="540">
+              <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
               <folding>
-                <element signature="e#29#48#0" expanded="true" />
+                <element signature="e#30#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,19 +142,18 @@
         <option value="$PROJECT_DIR$/ucl_scraping.py" />
         <option value="$PROJECT_DIR$/UCL Dataset_v2.csv" />
         <option value="$PROJECT_DIR$/test/test.py" />
-        <option value="$PROJECT_DIR$/data_roadmap.txt" />
-        <option value="$PROJECT_DIR$/data_roadmap.txt" />
         <option value="$PROJECT_DIR$/ucl_cleaning.py" />
         <option value="$PROJECT_DIR$/UCL Dataset.csv" />
         <option value="$PROJECT_DIR$/Teams Database/UCL Dataset_v2.csv" />
         <option value="$PROJECT_DIR$/ucl_analysis_visualization.py" />
+        <option value="$PROJECT_DIR$/data_roadmap.txt" />
+        <option value="$PROJECT_DIR$/data_roadmap.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -169,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,16 +185,10 @@
               <item name="UCL Statistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="UCL Statistics" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UCL Statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCL Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Teams Database" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,9 +387,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.10170394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.12946783" />
       <window_info id="Structure" order="1" sideWeight="0.5009901" side_tool="true" weight="0.10063898" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -428,19 +432,9 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Players Stats/Best Scorers/2017-2018 UCL Best Scorers stats.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="920">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Players Stats/Best assists players/2015-2016 UCL Best Passers stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="292">
@@ -450,7 +444,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Stats/Best assists players/2017-2018 UCL Best Passers stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="100">
@@ -460,13 +454,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2013-2014 UCL Teams Summary stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2014-2015 UCL Teams ER stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="580">
@@ -476,7 +470,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2015-2016 UCL Teams ER stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="600">
@@ -487,7 +481,7 @@
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2013-2014 UCL Teams Stats.csv" />
     <entry file="file://$PROJECT_DIR$/Players Database/Databases/2013-2014 UCL Players Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -497,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Database/Databases/2014-2015 UCL Players Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -507,7 +501,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Database/Databases/2015-2016 UCL Players Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -517,7 +511,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Database/Databases/2016-2017 UCL Players Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -527,7 +521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Database/Databases/2017-2018 UCL Players Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -537,7 +531,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2013-2014 UCL Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-2" />
@@ -545,13 +539,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2014-2015 UCL Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2016-2017 UCL Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-1" />
@@ -595,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2017-2018 UCL Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="540">
@@ -605,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Semi Final/2017-2018 UCL Teams Semi Final stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="80">
@@ -616,14 +610,14 @@
     <entry file="file://$PROJECT_DIR$/2011-2012 UCL Best Scorers stats.csv" />
     <entry file="file://$PROJECT_DIR$/test/test.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/UCL Database.csv" />
     <entry file="file://$PROJECT_DIR$/Players Stats/Best assists players/2012-2013 UCL Best Passers stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -633,7 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Stats/Best assists players/2013-2014 UCL Best Passers stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="20">
@@ -643,7 +637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Stats/Best Scorers/2012-2013 UCL Best Scorers stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="20">
@@ -653,7 +647,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test2.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
@@ -669,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Stats/Best assists players/2011-2012 UCL Best Passers stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -679,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Stats/Best Scorers/2011-2012 UCL Best Scorers stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -689,7 +683,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Database/Databases/2012-2013 UCL Players Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -699,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2017-2018 UCL Teams ER stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="580">
@@ -709,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2012-2013 UCL Teams ER stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="600">
@@ -719,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2013-2014 UCL Teams ER stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="580">
@@ -729,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2016-2017 UCL Teams ER stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="580">
@@ -739,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players Database/Databases/2011-2012 UCL Players Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -749,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2012-2013 UCL Teams Summary stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="380">
@@ -759,7 +753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2012-2013 UCL Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="620">
@@ -769,13 +763,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams Database/Data/2011-2012 UCL Stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Detailed stats/2011-2012 UCL Teams Summary stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="220">
@@ -785,7 +779,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams' stats/Elimination Round/2011-2012 UCL Teams ER stats.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="600">
@@ -804,22 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_roadmap.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UCL Dataset 2.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/UCL Dataset 2.csv" />
     <entry file="file://$PROJECT_DIR$/Teams Database/UCL Dataset_v2.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="391">
@@ -827,10 +809,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Project Schedule.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UCL Dataset.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1140">
+          <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Untitled2.ipynb" />
     <entry file="file://$PROJECT_DIR$/ucl_cleaning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3358">
+        <state relative-caret-position="-1163">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#29#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucl_analysis_visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6561">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding>
             <element signature="e#29#48#0" expanded="true" />
           </folding>
@@ -839,30 +849,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ucl_scraping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="413" column="35" lean-forward="true" selection-start-line="413" selection-start-column="35" selection-end-line="413" selection-end-column="35" />
+        <state relative-caret-position="540">
+          <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
           <folding>
             <element signature="e#30#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UCL Dataset.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-10">
-          <caret line="57" column="73" lean-forward="true" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ucl_analysis_visualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7740">
-          <caret line="387" column="11" lean-forward="true" selection-start-line="387" selection-start-column="11" selection-end-line="387" selection-end-column="11" />
-          <folding>
-            <element signature="e#29#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
