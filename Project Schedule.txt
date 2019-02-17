@@ -95,11 +95,10 @@ elimination rounds because it's completely different
 - extra data cleaning
 - exploratory data analysis for each subsets (4 in total) :
 	-> 1st subset : Done
-	-> 2nd subset : 30%, (descriptive analysis, univariate distribution done, bivariate distribution analysis done)
-	-> 3nd subset : 10%, (descriptive analysis done)
-	-> 4th subset : 10%, (descriptive analysis done)
-
-* Need to do asap : graphs comments (all subsets), correlations (subset 2,3,4), bivariate distribution analysis (2,3,4), univariate distribution analysis (3,4)
+	-> 2nd subset : Done
+	-> 3nd subset : Done
+	-> 4th subset : Done
+- advanced analysis (more detailed questions to answer)
 
 ##### LEFT TO DO ... #####
 
