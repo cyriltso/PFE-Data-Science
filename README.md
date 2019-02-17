@@ -42,13 +42,16 @@ In the Test's branch:
 - Os
 - Pandas
 - Scikit-Learn
+- XGBoost
 - Numpy
 - Scipy
 - Matplotlib
+- Seaborn
 
 ## Tools used
 
-- PyCharm CE
+- PyCharm CE (for the scraping part)
+- Jupyter Notebook (for the cleaning, exploratory data analysis and machine learning part)
 - Git, Github
 - Chrome Driver
 
