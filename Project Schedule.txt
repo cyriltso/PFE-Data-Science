@@ -100,7 +100,13 @@ elimination rounds because it's completely different
 	-> 4th subset : Done
 - advanced analysis (more detailed questions to answer)
 
+##### DONE BETWEEN THE 15/02/2019 AND THE 18/03/2019
+
+- Machine Learning part done for the first approach (Multiclass Classification)
+
 ##### LEFT TO DO ... #####
 
-- starting the machine learning training
-- telling future scenarios for the 2018-2019 season
+- starting the machine learning training for the second approach (Binary Classification)
+- scraping data from 2018/2019 season (8th Finals only)
+- telling future scenarios for the 2018-2019 season (predictions for each round from the 8th Finals to the Finals)
+
