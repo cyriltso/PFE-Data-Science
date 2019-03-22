@@ -1,14 +1,8 @@
-# Data Science : UEFA UCL 2018-2019 predictions 
+# Data Science : UEFA UCL 2018-2019 winner prediction
 
 ## Introduction & Purpose
 
-In this project, we want to predict several scenarios
-regarding the 2018-2019 edition of the UEFA Champions League.
-
-Indeed, we would like to predict:
-- The winner of the tournament
-- The best scorer of the tournament
-- The best assist player
+In this project, we want to predict the winner of UEFA Champions League 2018/2019.
 
 ## Contents
 
@@ -47,6 +41,7 @@ In the Test's branch:
 - Scipy
 - Matplotlib
 - Seaborn
+- Keras
 
 ## Tools used
 
