@@ -104,9 +104,14 @@ elimination rounds because it's completely different
 
 - Machine Learning part done for the first approach (Multiclass Classification)
 
-##### LEFT TO DO ... #####
+##### DONE THE WEEK OF 20/03/2019
 
-- starting the machine learning training for the second approach (Binary Classification)
+- second approach (Binary Classification done)
 - scraping data from 2018/2019 season (8th Finals only)
 - telling future scenarios for the 2018-2019 season (predictions for each round from the 8th Finals to the Finals)
 
+##################################################
+#					         #
+# PROJECT FINISHED THE 22 March 2019 at 4:11 AM. #
+#					         #		
+################################################## 
